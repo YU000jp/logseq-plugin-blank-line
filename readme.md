@@ -43,7 +43,7 @@
 
 ### Change the shortcut
 
-- [---] (on toolbar) -> [Settings] -> [Customize shortcuts] -> [Plugins] -> the button of [plugin-blank-line]
+- `[---]` (on toolbar) -> `[Settings]` -> `[Customize shortcuts]` -> `Plugins` -> the button of `plugin-blank-line`
 
 ---
 
