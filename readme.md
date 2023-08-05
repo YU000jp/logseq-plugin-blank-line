@@ -34,9 +34,9 @@
 ### Plugin Settings
 
 - Number of inserting blank lines: select
-  - `1`～`20`
+  - `1`-`20`
 - Number of inserting blank lines: select
-  - `1`～`30`
+  - `1`-`30`
 - Enable bullet context menu `🔘Make to next line blank`
   - `true`
   - `false` default
