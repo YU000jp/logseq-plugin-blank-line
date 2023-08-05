@@ -1,10 +1,8 @@
 # Logseq Plugin: Blank Line
 
-- Insert blank lines below the selected block.
+- Quickly insert blank lines below the selected block or the last block of the page.
 
 - Development stage 👷🚧
-
-> This plugin still has room for improvement. Please let me know if you encounter any issues or have any ideas for enhancement.
 
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
@@ -14,6 +12,14 @@
 ---
 
 ## Features
+
+### Shortcut key `Ctrl`(mod) + `Shift` + `B` on the block
+
+![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
+
+### Select `🔘Make to next line blank` on the menu of page title (on right click)
+
+![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
 ---
 
