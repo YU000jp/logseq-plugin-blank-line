@@ -39,7 +39,7 @@
   - `1`-`20`
 - Number of inserting blank lines: select
   - `1`-`30`
-- Enable bullet context menu `🦢Make to next line blank`
+- Enable bullet context menu `🦢Add blank lines` and `🦢Add blank line (Only one line)`
   - `true`
   - `false` default
 
