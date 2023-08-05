@@ -17,18 +17,18 @@ const main = () => {
   // })();
 
   /* ContextMenuItem `Make to next line blank`  */
-  if (logseq.settings!.bulletContextMenuItem === true) logseq.Editor.registerBlockContextMenuItem('🔘Make to next line blank', async ({ uuid }) => {
+  if (logseq.settings!.bulletContextMenuItem === true) logseq.Editor.registerBlockContextMenuItem('🦢Make to next line blank', async ({ uuid }) => {
     createBlankLine(uuid, logseq.settings?.nextLineBlank || "1");
   });
 
-  logseq.App.registerCommandPalette({ key: "createBlankLine", label: "🔘Make to next line blank", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLine", label: "🦢Make to next line blank", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
     if (uuid) createBlankLine(uuid, logseq.settings?.nextLineBlank || "1");
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
 
-  //ページの最後に追加する🔘Blank line (prepend)
-  logseq.App.registerPageMenuItem("🔘Make to next line blank", async ({ page }) => {
+  //ページの最後に追加する🦢Blank line (prepend)
+  logseq.App.registerPageMenuItem("🦢Make to next line blank", async ({ page }) => {
     if (!page) return;
     const newBlock = await logseq.Editor.prependBlockInPage(page, "",) as BlockEntity | null;
     if (!newBlock) return;
@@ -40,7 +40,7 @@ const main = () => {
   //TODO: appendがうまくいかない
 
   // //ページの先頭に追加する
-  // logseq.App.registerPageMenuItem("🔘Blank line (append)", async ({ page }) => {
+  // logseq.App.registerPageMenuItem("🦢Blank line (append)", async ({ page }) => {
   //   if (!page) return;
   //   const newBlock = await logseq.Editor.appendBlockInPage(page, "",) as BlockEntity | null;
   //   if (!newBlock) return;
@@ -57,7 +57,7 @@ function createBlankLine(uuid: string, numberOfBlankLine: number) {
   for (let i = 0; i < numberOfBlankLine; i++) {
     logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true });
   }
-  logseq.UI.showMsg("Done! (🔘Make to next line blank)", "info");
+  logseq.UI.showMsg("Done! (🦢Make to next line blank)", "info");
 }
 
 
@@ -83,7 +83,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   {
     key: "bulletContextMenuItem",
     type: "boolean",
-    title: "Enable bullet context menu `🔘Make to next line blank",
+    title: "Enable bullet context menu `🦢Make to next line blank",
     description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
     default: false,
   },
