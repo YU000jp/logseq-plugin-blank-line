@@ -13,6 +13,8 @@
 
 ## Features (Usage)
 
+- When working with blocks that contain content, line breaks can often be a source of annoyance. Fortunately, there is a solution!
+
 ### Shortcut key `Ctrl`(mod) + `Shift` + `B` in the block
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
