@@ -41,7 +41,7 @@
   - `true`
   - `false` default
 
-### Change the shortcut
+### Customize the shortcut
 
 - `[---]` (on toolbar) -> `[Settings]` -> `[Customize shortcuts]` -> `Plugins` -> the button of `plugin-blank-line`
 
