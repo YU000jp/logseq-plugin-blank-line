@@ -1,6 +1,6 @@
 {
     "name": "logseq-plugin-blank-line",
-    "description": "Insert blank lines below the selected block.",
+    "description": "Quickly insert blank lines below the selected block or the block of the page.",
     "repository": "https://github.com/YU000jp/logseq-plugin-blank-line.git",
     "author": "YU000jp",
     "license": "MIT",
