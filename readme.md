@@ -1,6 +1,6 @@
 # Logseq Plugin: Blank Line
 
-- Quickly insert blank lines below the selected block or the last block of the page.
+- Quickly insert blank lines below the selected block or the block of the page.
 
 - Development stage 👷🚧
 
