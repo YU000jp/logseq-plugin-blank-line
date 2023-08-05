@@ -15,11 +15,19 @@
 
 - When working with blocks that contain content, line breaks can often be a source of annoyance. Fortunately, there is a solution!
 
-### Shortcut key `Ctrl`(mod) + `Shift` + `B` in the block
+### Add 1 blank line only
+
+#### Shortcut key `Alt` + `Enter` in the block
+
+### Add blank lines
+
+#### Shortcut key `Ctrl`(mod) + `Shift` + `B` in the block
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
-### Select `🦢Blank line (prepend)` on the menu of page title (on right click)
+### Prepend blank lines to the page
+
+#### Select `🦢Blank line (prepend)` on the menu of page title (on right click)
 
 ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
