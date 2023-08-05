@@ -19,20 +19,21 @@ const main = () => {
   /* ContextMenuItem `Make to next line blank`  */
   if (logseq.settings!.bulletContextMenuItem === true) {
     logseq.Editor.registerBlockContextMenuItem('🦢Add blank lines', async ({ uuid }) => {
-      createBlankLine(uuid, logseq.settings?.nextLineBlank as number || 1);
+      createBlankLine(uuid, Number(logseq.settings?.nextLineBlank) || 1);
     });
     logseq.Editor.registerBlockContextMenuItem('🦢Add blank line (Only one line)', async ({ uuid }) => {
       createBlankLine(uuid, 1);
     });
   }
 
-  logseq.App.registerCommandPalette({ key: "createBlankLine", label: "🦢Add bank lines", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
-    if (uuid) createBlankLine(uuid, logseq.settings?.nextLineBlank as number || 1);
+  logseq.App.registerCommandPalette({ key: "createBlankLines", label: "", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
+    if(!logseq.settings?.nextLineBlank) return;
+    if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
 
-  logseq.App.registerCommandPalette({ key: "createBlankLine", label: "🦢Add blank line (Only one line)", keybinding: { binding: "Alt+Enter" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlank1LineOnly", label: "🦢Add blank line (Only one line)", keybinding: { binding: "Alt+Enter" } }, async ({ uuid }) => {
     if (uuid) createBlankLine(uuid, 1);
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
@@ -40,11 +41,11 @@ const main = () => {
 
   //ページの最後に追加する🦢Blank line (prepend)
   logseq.App.registerPageMenuItem("🦢Add blank lines (prepend)", async ({ page }) => {
-    if (!page) return;
+    if (!page || !logseq.settings?.nextLineBlankFromPageMenu) return;
     const newBlock = await logseq.Editor.prependBlockInPage(page, "",) as BlockEntity | null;
     if (!newBlock) return;
-    let numberBlankLine = Number(logseq.settings?.nextLineBlankFromPageMenu) || 1;
-    if (numberBlankLine - 1 >= 1) createBlankLine(newBlock.uuid, numberBlankLine - 1);
+    let numberBlankLine = Number(logseq.settings?.nextLineBlankFromPageMenu) - 1;
+    if (numberBlankLine >= 1) createBlankLine(newBlock.uuid, numberBlankLine);
   });
 
 
