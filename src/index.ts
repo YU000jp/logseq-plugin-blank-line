@@ -83,7 +83,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   {
     key: "bulletContextMenuItem",
     type: "boolean",
-    title: "Enable `🔘Make to next line blank",
+    title: "Enable bullet context menu `🔘Make to next line blank",
     description: "default: `false` (⚠️need to turn off this plugin or restart Logseq to take effect)",
     default: false,
   },
