@@ -28,7 +28,7 @@ const main = () => {
   });
 
   //ページの最後に追加する🦢Blank line (prepend)
-  logseq.App.registerPageMenuItem("🦢Make to next line blank", async ({ page }) => {
+  logseq.App.registerPageMenuItem("🦢Blank line (prepend)", async ({ page }) => {
     if (!page) return;
     const newBlock = await logseq.Editor.prependBlockInPage(page, "",) as BlockEntity | null;
     if (!newBlock) return;

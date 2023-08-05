@@ -17,7 +17,7 @@
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
-### Select `🦢Make to next line blank` on the menu of page title (on right click)
+### Select `🦢Blank line (prepend)` on the menu of page title (on right click)
 
 ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
