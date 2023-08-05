@@ -1,4 +1,4 @@
-# Logseq Plugin: Blank Line
+# Logseq Plugin: Blank Line 🔘
 
 - Quickly insert blank lines below the selected block or the block of the page.
 
@@ -47,7 +47,7 @@
 
 ### Icon
 
-- [icooon-mono.com](https://icooon-mono.com/)
+- [icooon-mono.com](https://icooon-mono.com/14658-%e3%82%b9%e3%83%af%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%88%e3%81%ae%e7%84%a1%e6%96%99%e3%82%a4%e3%83%a9%e3%82%b9%e3%83%883/)
 
 ---
 
