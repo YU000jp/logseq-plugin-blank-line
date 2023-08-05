@@ -11,7 +11,7 @@
 
 ---
 
-## Features
+## Features (Usage)
 
 ### Shortcut key `Ctrl`(mod) + `Shift` + `B` on the block
 
@@ -31,7 +31,15 @@
 - Select `Marketplace`
 - Type `Blank` in the search field, select it from the search results and install
 
-### Usage
+### Plugin Settings
+
+- Number of inserting blank lines: select
+  - `1`～`20`
+- Number of inserting blank lines: select
+  - `1`～`30`
+- Enable bullet context menu `🔘Make to next line blank`
+  - true
+  - false default
 
 ---
 
