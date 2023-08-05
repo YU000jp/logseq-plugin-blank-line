@@ -1,4 +1,4 @@
-# Logseq Plugin: Blank Line 🔘
+# Logseq Plugin: Blank Line 🦢
 
 - Quickly insert blank lines below the selected block or the block of the page.
 
