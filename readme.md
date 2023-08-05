@@ -13,7 +13,7 @@
 
 ## Features (Usage)
 
-### Shortcut key `Ctrl`(mod) + `Shift` + `B` on the block
+### Shortcut key `Ctrl`(mod) + `Shift` + `B` in the block
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
