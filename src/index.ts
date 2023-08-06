@@ -26,7 +26,7 @@ const main = () => {
     });
   }
 
-  logseq.App.registerCommandPalette({ key: "createBlankLines", label: "", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLines", label: "🦢Add blank lines", keybinding: { binding: "Mod+Shift+b" } }, async ({ uuid }) => {
     if(!logseq.settings?.nextLineBlank) return;
     if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
     //ブロックが選択されていない場合
