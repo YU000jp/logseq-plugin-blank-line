@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.1.1...v1.2.0) (2023-08-06)
+
+
+### Features
+
+* **Add:** Add blank lines (prepend) ([8c431a5](https://github.com/YU000jp/logseq-plugin-blank-line/commit/8c431a51d109221eb845a77204daa24c43d92a3a))
+
 ## [1.1.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.1.0...v1.1.1) (2023-08-06)
 
 
