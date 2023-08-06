@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.1.0...v1.1.1) (2023-08-06)
+
+
+### Bug Fixes
+
+* **bug:** command palette label ([69b9686](https://github.com/YU000jp/logseq-plugin-blank-line/commit/69b968646df087d10bdf2d5a3e91f32aa8c3b0b1))
+
 # [1.1.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.0.0...v1.1.0) (2023-08-05)
 
 
