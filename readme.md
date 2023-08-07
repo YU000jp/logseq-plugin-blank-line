@@ -11,7 +11,7 @@
 
 ## Features (Usage)
 
-- When working with blocks that contain content, line breaks can often be a source of annoyance. Fortunately, there is a solution!
+- When working with blocks that contain embed or reference, line breaks can often be a source of annoyance. Fortunately, there is a solution!
 
 ### Add 1 blank line only
 
