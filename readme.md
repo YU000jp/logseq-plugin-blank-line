@@ -51,10 +51,10 @@
   - `1`-`20`
 - Number of inserting blank lines (from the page menu): select
   - `1`-`30`
-- Number of inserting blank lines (from the page menu)
+  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`
+- Enable bullet context menu: toggle
   - `true`
   - `false` default
-  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`
 
 ### Customize the shortcut
 
