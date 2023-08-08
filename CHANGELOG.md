@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.2.0...v1.3.0) (2023-08-08)
+
+
+### Features
+
+* **Add shortcut:** `🦢Add blank lines (previous) ⤴️` ([6ba71ba](https://github.com/YU000jp/logseq-plugin-blank-line/commit/6ba71ba95cf5837b251e72ea87a3952586bfd3f5))
+
 # [1.2.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.1.1...v1.2.0) (2023-08-06)
 
 
