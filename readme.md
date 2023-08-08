@@ -1,6 +1,7 @@
 # Logseq Plugin: Blank Line 🦢
 
-- Quickly insert blank lines below the selected block or the block of the page.
+- ~~Quickly insert blank lines below the selected block or the block of the page.~~
+- Quickly inserts a blank line above or below a selected block or block on a page.
 
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
