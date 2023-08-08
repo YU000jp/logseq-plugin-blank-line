@@ -17,15 +17,19 @@
 
 #### Shortcut key `Alt` + `Enter` in the block
 
-### Add blank lines
+### Add Blank lines (previous)
 
-#### Shortcut key `Ctrl`(mod) + `Shift` + `B` in the block
+#### Shortcut key `Ctrl/mod` + `Shift` + `↑Up` in the block
+
+### Add blank lines (next)
+
+#### Shortcut key `Ctrl/mod` + `Shift` + `↓Down` in the block
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
 ### Prepend blank lines to the page
 
-#### Select `🦢Blank line (prepend)` on the menu of page title (on right click)
+#### Select `🦢Add blank lines (prepend⏫)` or `🦢Blank line (append⏬)` on the menu of page title (on right click)
 
 ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
@@ -41,13 +45,16 @@
 
 ### Plugin Settings
 
-- Number of inserting blank lines: select
+- Number of inserting blank lines (previous): select
   - `1`-`20`
-- Number of inserting blank lines: select
+ - Number of inserting blank lines (next): select
+  - `1`-`20`
+- Number of inserting blank lines (from the page menu): select
   - `1`-`30`
-- Enable bullet context menu `🦢Add blank lines` and `🦢Add blank line (Only one line)`
+- Number of inserting blank lines (from the page menu)
   - `true`
   - `false` default
+  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)
 
 ### Customize the shortcut
 
