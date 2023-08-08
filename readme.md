@@ -54,7 +54,7 @@
 - Number of inserting blank lines (from the page menu)
   - `true`
   - `false` default
-  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)
+  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`
 
 ### Customize the shortcut
 
