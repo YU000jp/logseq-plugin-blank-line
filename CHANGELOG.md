@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.0...v1.3.1) (2023-08-08)
+
+
+### Bug Fixes
+
+* description, shortcut key, about mod ([faa711b](https://github.com/YU000jp/logseq-plugin-blank-line/commit/faa711b988e5ade6e35a711b94e625d391bdb544))
+
 # [1.3.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.2.0...v1.3.0) (2023-08-08)
 
 
