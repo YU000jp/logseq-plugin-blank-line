@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.1...v1.3.2) (2023-08-08)
+
+
+### Bug Fixes
+
+* **bug:** previous line blank, not match number ([8440834](https://github.com/YU000jp/logseq-plugin-blank-line/commit/8440834afb08fc01cb56ac0992d6a62486e8ba12))
+
 ## [1.3.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.0...v1.3.1) (2023-08-08)
 
 
