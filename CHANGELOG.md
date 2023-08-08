@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.2...v1.3.3) (2023-08-08)
+
+
+### Bug Fixes
+
+* **bug:** **break** Change shortcut key for mac ([43da85f](https://github.com/YU000jp/logseq-plugin-blank-line/commit/43da85f3978a5e1cf906da8acb474c49bf8d5390))
+
 ## [1.3.2](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.1...v1.3.2) (2023-08-08)
 
 
