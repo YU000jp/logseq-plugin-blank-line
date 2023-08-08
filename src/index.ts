@@ -22,8 +22,8 @@ if(!logseq.settings!.trashMessageChangeShortcut20230808){
   🦢 Blank line plugin :
   Shortcut key has been changed. (2023/08/08)
   
-  Add blank lines (previous) : Mod+Shift+↑Up
-  Add blank lines (next) : Mod+Shift+↓Down
+  Add blank lines (previous) : Ctrl/Mod+Shift+↑Up
+  Add blank lines (next) : Ctrl/Mod+Shift+↓Down
   `, "info",{timeout:5500});
   logseq.updateSettings({ trashMessageChangeShortcut20230808: true });
 
@@ -116,7 +116,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-    description: "Shortcut key: `Mod+Shift+↑Up`",
+    description: "Shortcut key: `Ctrl/Mod+Shift+↑Up`",
   },
   {
     key: "nextLineBlank",
@@ -124,7 +124,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-    description: "Shortcut key: `Mod+Shift+↓Down`",
+    description: "Shortcut key: `Ctrl/Mod+Shift+↓Down`",
   },
   {
     key: "nextLineBlankFromPageMenu",
