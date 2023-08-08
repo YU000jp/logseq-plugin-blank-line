@@ -43,6 +43,8 @@
 - Select `Marketplace`
 - Type `Blank` in the search field, select it from the search results and install
 
+  ![image](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/668cace9-8da2-4b90-91f7-4353f073c911)
+
 ### Plugin Settings
 
 - Number of inserting blank lines (previous): select
