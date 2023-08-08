@@ -17,13 +17,13 @@ const main = () => {
   // })();
 
   //Shortcut keyの変更を通知する
-if(!logseq.settings!.trashMessageChangeShortcut20230808){
+if(!logseq.settings!.trashMessageChangeShortcut20230808b){
   logseq.UI.showMsg(`
   🦢 Blank line plugin :
   Shortcut key has been changed. (2023/08/08)
   
-  Add blank lines (previous) : Ctrl/Mod+Shift+↑Up
-  Add blank lines (next) : Ctrl/Mod+Shift+↓Down
+  Add blank lines (previous) : Ctrl/Mod+Pg-Up
+  Add blank lines (next) : Ctrl/Mod+Pg-Down
   `, "info",{timeout:5500});
   logseq.updateSettings({ trashMessageChangeShortcut20230808: true });
 
@@ -41,7 +41,7 @@ if(!logseq.settings!.trashMessageChangeShortcut20230808){
   }
 
   //前に空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: "Mod+Shift+Up" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: "Mod+Pg-Up" } }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank || !uuid) return;
     const block = await logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true, before: true, });
     const numberBlankLine = Number(logseq.settings?.previousLineBlank) - 1;
@@ -51,7 +51,7 @@ if(!logseq.settings!.trashMessageChangeShortcut20230808){
   });
 
   //後ろに空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: "🦢Add blank lines (next) ⤵️", keybinding: { binding: "Mod+Shift+Down" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: "🦢Add blank lines (next) ⤵️", keybinding: { binding: "Mod+Pg-Down" } }, async ({ uuid }) => {
     if (!logseq.settings?.nextLineBlank) return;
     if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
     //ブロックが選択されていない場合
@@ -117,7 +117,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-    description: "Shortcut key: `Ctrl/Mod+Shift+↑Up`",
+    description: "Shortcut key: `Ctrl/Mod+Pg-Up`",
   },
   {
     key: "nextLineBlank",
@@ -125,7 +125,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-    description: "Shortcut key: `Ctrl/Mod+Shift+↓Down`",
+    description: "Shortcut key: `Ctrl/Mod+Pg-Down`",
   },
   {
     key: "nextLineBlankFromPageMenu",
