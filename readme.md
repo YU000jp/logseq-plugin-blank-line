@@ -47,7 +47,7 @@
 
 - Number of inserting blank lines (previous): select
   - `1`-`20`
- - Number of inserting blank lines (next): select
+- Number of inserting blank lines (next): select
   - `1`-`20`
 - Number of inserting blank lines (from the page menu): select
   - `1`-`30`
