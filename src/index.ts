@@ -44,7 +44,8 @@ if(!logseq.settings!.trashMessageChangeShortcut20230808){
   logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: "Mod+Shift+Up" } }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank || !uuid) return;
     const block = await logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true, before: true, });
-    if (block) createBlankLine(block.uuid, Number(logseq.settings?.previousLineBlank));
+    const numberBlankLine = Number(logseq.settings?.previousLineBlank) - 1;
+    if (block && numberBlankLine >= 1) createBlankLine(block.uuid, numberBlankLine);
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
