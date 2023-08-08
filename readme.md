@@ -19,11 +19,11 @@
 
 ### Add Blank lines (previous)
 
-#### Shortcut key `Ctrl/mod` + `Shift` + `↑Up` in the block
+#### Shortcut key `Ctrl/mod` + `Pg-Up` in the block
 
 ### Add blank lines (next)
 
-#### Shortcut key `Ctrl/mod` + `Shift` + `↓Down` in the block
+#### Shortcut key `Ctrl/mod` + `Pg-Down` in the block
 
 ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
