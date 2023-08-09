@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.3...v1.3.4) (2023-08-09)
+
+
+### Bug Fixes
+
+* **bug:** show first message (once) ([47706eb](https://github.com/YU000jp/logseq-plugin-blank-line/commit/47706eb4214f4f2765684c92d0bf450e167ca6d0))
+
 ## [1.3.3](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.2...v1.3.3) (2023-08-08)
 
 
