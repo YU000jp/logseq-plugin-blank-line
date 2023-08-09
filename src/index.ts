@@ -17,17 +17,32 @@ const main = () => {
   // })();
 
   //Shortcut keyの変更を通知する
-if(!logseq.settings!.trashMessageChangeShortcut20230808b){
-  logseq.UI.showMsg(`
-  🦢 Blank line plugin :
-  Shortcut key has been changed. (2023/08/08)
+  if (!logseq.settings!.trashMessageChangeShortcutFirst) {
+    logseq.UI.showMsg(`
   
-  Add blank lines (previous) : Ctrl/Mod+Pg-Up
-  Add blank lines (next) : Ctrl/Mod+Pg-Down
-  `, "info",{timeout:5500});
-  logseq.updateSettings({ trashMessageChangeShortcut20230808: true });
+  🦢 Blank line plugin :
 
-}
+  
+  --- Shortcut list ---
+  
+  Add blank line (Only one line) :
+  Alt + Enter
+  
+  Add blank lines (previous) : 
+  Ctrl/Mod + Pg-Up
+  
+  Add blank lines (next) : 
+  Ctrl/Mod + Pg-Down
+  
+  
+  There are possible to change the shortcut key from the settings.
+  
+  [Settings] -> [Customize shortcuts] -> [Plugin] -> [Blank line plugin]
+  
+  `, "info", { timeout: 5500 });
+    logseq.updateSettings({ trashMessageChangeShortcutFirst: true });
+
+  }
 
   /* ContextMenuItem `Make to next line blank`  */
   if (logseq.settings!.bulletContextMenuItem === true) {
