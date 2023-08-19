@@ -11,7 +11,7 @@
 
 ---
 
-## Usage
+## Usage options
 
 ### Add 1 blank line only
 
