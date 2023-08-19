@@ -11,9 +11,11 @@
 
 ---
 
-## Usage options
+## Options
 
-### Add 1 blank line only
+### Add single blank line
+
+- For any reference or content
 
 #### Shortcut key `Alt` + `Enter` in the block
 
