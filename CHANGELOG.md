@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.4...v1.3.5) (2023-09-15)
+
+
+### Bug Fixes
+
+* **Support Logseq v0.9.17:** reset shortcut key ([ac85d62](https://github.com/YU000jp/logseq-plugin-blank-line/commit/ac85d621cb2be4c2b96dfa61670ec46ac5ea5607))
+
 ## [1.3.4](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.3...v1.3.4) (2023-08-09)
 
 
