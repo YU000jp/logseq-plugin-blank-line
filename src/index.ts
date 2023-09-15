@@ -56,7 +56,7 @@ const main = () => {
   }
 
   //前に空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: "Mod+Pg-Up" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: 'mod+pg-up' } }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank || !uuid) return;
     const block = await logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true, before: true, });
     const numberBlankLine = Number(logseq.settings?.previousLineBlank) - 1;
@@ -66,14 +66,14 @@ const main = () => {
   });
 
   //後ろに空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: "🦢Add blank lines (next) ⤵️", keybinding: { binding: "Mod+Pg-Down" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: "🦢Add blank lines (next) ⤵️", keybinding: { binding: 'mod+pg-down' } }, async ({ uuid }) => {
     if (!logseq.settings?.nextLineBlank) return;
     if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
 
-  logseq.App.registerCommandPalette({ key: "createBlankNext1LineOnly", label: "🦢Add blank line (Only one line) ⤵️", keybinding: { binding: "Alt+Enter" } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankNext1LineOnly", label: "🦢Add blank line (Only one line) ⤵️", keybinding: { binding: 'alt+enter' } }, async ({ uuid }) => {
     if (uuid) createBlankLine(uuid, 1);
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
