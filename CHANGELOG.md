@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.5...v1.4.0) (2023-09-29)
+
+
+### Features
+
+* **ja:** プラグイン設定などの日本語対応 ([e6256e3](https://github.com/YU000jp/logseq-plugin-blank-line/commit/e6256e31c8ec082e598566b8a12d26fd3d8af22b))
+
 ## [1.3.5](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.4...v1.3.5) (2023-09-15)
 
 
