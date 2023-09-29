@@ -1,3 +1,12 @@
 {
-
+    "🦢Add blank lines (next line) ⤵️": "空白行を複数追加 ⤵️",
+    "🦢Add blank line (Only one line) ⤵️": "空白を一行追加 ⤵️",
+    "🦢Add blank lines (previous) ⤴️": "空白行を前に追加 ⤴️",
+    "🦢Add blank lines (prepend⏫)": "ページ先頭に空白行を追加 ⏫",
+    "🦢Blank line (append⏬)": "ページ末尾に空白行を追加 ⏬",
+    "Add blank line (Only one line)": "空白を一行追加",
+    "Number of inserting blank lines (previous)": "空白行を前に挿入する行数",
+    "Number of inserting blank lines (next)": "空白行を後に挿入する行数",
+    "Number of inserting blank lines (from the page menu)": "ページメニューから挿入する空白行の数",
+    "Enable bullet context menu": "バレットのコンテキストメニューを有効にする"
 }

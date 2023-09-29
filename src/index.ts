@@ -1,62 +1,29 @@
 import '@logseq/libs'; //https://plugins-doc.logseq.com/
 import { BlockEntity, PageEntity, SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user';
-//import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
-//import ja from "./translations/ja.json";
+import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
+import ja from "./translations/ja.json";
 
 
 /* main */
-const main = () => {
-  // (async () => {
-  //   try {
-  //     await l10nSetup({ builtinTranslations: { ja } });
-  //   } finally {
+const main = async () => {
+  await l10nSetup({ builtinTranslations: { ja } });
   /* user settings */
-  logseq.useSettingsSchema(settingsTemplate);
+  logseq.useSettingsSchema(settingsTemplate());
   if (!logseq.settings) setTimeout(() => logseq.showSettingsUI(), 300);
-  //   }
-  // })();
-
-  //Shortcut keyの変更を通知する
-  if (!logseq.settings!.trashMessageChangeShortcutFirst) {
-    logseq.UI.showMsg(`
-  
-  🦢 Blank line plugin :
-
-  
-  --- Shortcut list ---
-  
-  Add blank line (Only one line) :
-  Alt + Enter
-  
-  Add blank lines (previous) : 
-  Ctrl/Mod + Pg-Up
-  
-  Add blank lines (next) : 
-  Ctrl/Mod + Pg-Down
-  
-  
-  There are possible to change the shortcut key from the settings.
-  
-  [Settings] -> [Customize shortcuts] -> [Plugin] -> [Blank line plugin]
-  
-  `, "info", { timeout: 5500 });
-    logseq.updateSettings({ trashMessageChangeShortcutFirst: true });
-
-  }
 
   /* ContextMenuItem `Make to next line blank`  */
   if (logseq.settings!.bulletContextMenuItem === true) {
-    logseq.Editor.registerBlockContextMenuItem('🦢Add blank lines (next line) ⤵️', async ({ uuid }) => {
+    logseq.Editor.registerBlockContextMenuItem(t("🦢Add blank lines (next line) ⤵️"), async ({ uuid }) => {
       if (!logseq.settings?.nextLineBlank) return;
       createBlankLine(uuid, Number(logseq.settings?.nextLineBlank) || 1);
     });
-    logseq.Editor.registerBlockContextMenuItem('🦢Add blank line (Only one line) ⤵️', async ({ uuid }) => {
+    logseq.Editor.registerBlockContextMenuItem(t("🦢Add blank line (Only one line) ⤵️"), async ({ uuid }) => {
       createBlankLine(uuid, 1);
     });
   }
 
   //前に空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: "🦢Add blank lines (previous) ⤴️", keybinding: { binding: 'mod+pg-up' } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: t("🦢Add blank lines (previous) ⤴️"), keybinding: { binding: 'mod+pg-up' } }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank || !uuid) return;
     const block = await logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true, before: true, });
     const numberBlankLine = Number(logseq.settings?.previousLineBlank) - 1;
@@ -66,21 +33,21 @@ const main = () => {
   });
 
   //後ろに空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: "🦢Add blank lines (next) ⤵️", keybinding: { binding: 'mod+pg-down' } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: t("🦢Add blank lines (next line) ⤵️"), keybinding: { binding: 'mod+pg-down' } }, async ({ uuid }) => {
     if (!logseq.settings?.nextLineBlank) return;
     if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
 
-  logseq.App.registerCommandPalette({ key: "createBlankNext1LineOnly", label: "🦢Add blank line (Only one line) ⤵️", keybinding: { binding: 'alt+enter' } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankNext1LineOnly", label: t("🦢Add blank line (Only one line) ⤵️"), keybinding: { binding: 'alt+enter' } }, async ({ uuid }) => {
     if (uuid) createBlankLine(uuid, 1);
     //ブロックが選択されていない場合
     else logseq.UI.showMsg("Please select a block.", "warning");
   });
 
   //ページの先頭に追加する🦢Blank line (prepend)
-  logseq.App.registerPageMenuItem("🦢Add blank lines (prepend⏫)", async ({ page }) => {
+  logseq.App.registerPageMenuItem(t("🦢Add blank lines (prepend⏫)"), async ({ page }) => {
     if (!page || !logseq.settings?.nextLineBlankFromPageMenu) return;
 
     const thisPage = await logseq.Editor.getPage(page) as PageEntity || null;
@@ -96,7 +63,7 @@ const main = () => {
   });
 
   //ページの最後に追加する
-  logseq.App.registerPageMenuItem("🦢Blank line (append⏬)", async ({ page }) => {
+  logseq.App.registerPageMenuItem(t("🦢Blank line (append⏬)"), async ({ page }) => {
     if (!page) return;
     const newBlock = await logseq.Editor.appendBlockInPage(page, "",) as BlockEntity | null;
     if (!newBlock) return;
@@ -118,17 +85,17 @@ function createBlankLine(uuid: string, numberOfBlankLine: number) {
 
 /* user setting */
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
-const settingsTemplate: SettingSchemaDesc[] = [
+const settingsTemplate = (): SettingSchemaDesc[] => [
   {
     key: "blank1lineOnly",
-    title: "Add blank line (Only one line)",
+    title: t("Add blank line (Only one line)"),
     type: "heading",
     default: "",
     description: "Shortcut key: `Alt+Enter`",
   },
   {
     key: "previousLineBlank",
-    title: "Number of inserting blank lines (previous)",
+    title: t("Number of inserting blank lines (previous)"),
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -136,7 +103,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   },
   {
     key: "nextLineBlank",
-    title: "Number of inserting blank lines (next)",
+    title: t("Number of inserting blank lines (next)"),
     type: "enum",
     default: "3",
     enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -144,7 +111,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   },
   {
     key: "nextLineBlankFromPageMenu",
-    title: "Number of inserting blank lines (from the page menu)",
+    title: t("Number of inserting blank lines (from the page menu)"),
     type: "enum",
     default: "10",
     enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
@@ -153,7 +120,7 @@ const settingsTemplate: SettingSchemaDesc[] = [
   {
     key: "bulletContextMenuItem",
     type: "boolean",
-    title: "Enable bullet context menu",
+    title: t("Enable bullet context menu"),
     description: `default: \`false\`
     \`🦢Add blank lines (next line) ⤵️\` and \`🦢Add blank line (Only one line) ⤵️\`
     (⚠️need to turn off this plugin or restart Logseq to take effect)`,
