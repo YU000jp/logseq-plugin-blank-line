@@ -40,9 +40,7 @@
 
 ### Install from Logseq Marketplace
 
-- Press [`---`] on the top right toolbar to open [`Plugins`]
-- Select `Marketplace`
-- Type `Blank` in the search field, select it from the search results and install
+- Press [`---`] on the top right toolbar to open [`Plugins`]. Select `Marketplace`. Type `Blank` in the search field, select it from the search results and install.
 
   ![image](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/668cace9-8da2-4b90-91f7-4353f073c911)
 
@@ -58,10 +56,6 @@
 - Enable bullet context menu: toggle
   - `true`
   - `false` default
-
-### Customize the shortcut
-
-- `[---]` (on toolbar) -> `[Settings]` -> `[Customize shortcuts]` -> `Plugins` -> the button of `plugin-blank-line`
 
 ---
 
