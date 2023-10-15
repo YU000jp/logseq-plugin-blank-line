@@ -1,7 +1,6 @@
 # Logseq Plugin: Blank Line 🦢
 
 - Quickly inserts blank lines above or below a selected block or blocks on a page.
-- When working with blocks that contain embed or reference, line breaks can often be a source of annoyance. Fortunately, there is a solution!
 
 [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
@@ -11,6 +10,8 @@
 ---
 
 ## Shortcuts
+
+- When working with blocks that contain embed or reference, line breaks can often be a source of annoyance. Fortunately, there is a solution!
 
 ### Add single blank line
 
