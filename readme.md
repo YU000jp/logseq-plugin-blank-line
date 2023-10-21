@@ -15,20 +15,20 @@ Insert empty lines above or below selected blocks or within a page.
 Shortcut Summary
 
   1. Add empty lines before and after a block
-    - Place your cursor within the block.
+     - Place your cursor within the block.
   2. Add an empty line below
-    - Shortcut key: Press `Alt` and `Enter` simultaneously.
+     - Shortcut key: Press `Alt` and `Enter` simultaneously.
   3. Add multiple empty lines above
-    - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously.
+     - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously.
   4. Add multiple empty lines below
-    - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
+     - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
 
   1. Add empty lines to the entire page
      - Right-click on the page name to access the menu. Choose one of the following options:
      1. Menu item `🦢 Add Blank Lines (Top⏫)`
-       - Adds the specified number of lines at the top of the page, as set in the plugin configuration.
+        - Adds the specified number of lines at the top of the page, as set in the plugin configuration.
      2. Menu item `🦢 Add Blank Lines (Bottom⏬)`
-       - Adds the specified number of lines at the bottom of the page, as set in the plugin configuration.
+        - Adds the specified number of lines at the bottom of the page, as set in the plugin configuration.
 
 ---
 
