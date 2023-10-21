@@ -23,16 +23,12 @@ Shortcut Summary
   4. Add multiple empty lines below
     - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
 
-       ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
-
   1. Add empty lines to the entire page
      - Right-click on the page name to access the menu. Choose one of the following options:
      1. Menu item `🦢 Add Blank Lines (Top⏫)`
        - Adds the specified number of lines at the top of the page, as set in the plugin configuration.
      2. Menu item `🦢 Add Blank Lines (Bottom⏬)`
        - Adds the specified number of lines at the bottom of the page, as set in the plugin configuration.
-
-       ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
 ---
 

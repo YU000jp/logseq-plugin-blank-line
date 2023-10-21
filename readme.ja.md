@@ -23,16 +23,12 @@
     1. 複数の空の行を追加する（次）
       - ショートカットキー `Ctrl` または `Cmd` と `Pg-Down` 同時押し
 
-       ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
-
   1. ページにまとめて空行を追加する
      - ページ名を右クリックすると、メニューが出ます。次のいずれかの項目を選択してください。
      1. メニュー項目 `🦢空行を追加（先頭⏫）`
        - ページの先頭に、プラグイン設定で指定した行数を追加します。
      1. メニュー項目 `🦢空行を追加（最後尾⏬）`
        - ページの最後尾に、プラグイン設定で指定した行数を追加します。
-
-       ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
 ---
 
