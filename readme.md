@@ -1,79 +1,71 @@
 # Logseq Plugin: Blank Line 🦢
 
-- Quickly inserts blank lines above or below a selected block or blocks on a page.
+[English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
-[![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
+This plugin allows you to insert empty lines above or below selected blocks or within a page.
+> Useful for creating empty lines in bulk or when it's challenging to move to the next line, such as block references.
+
+[![Latest Release Version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-blank-line/total.svg)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
- Published 2023/08/07
+  Published on: 2023/08/07
 
----
+## Overview
 
-## Shortcuts
+Shortcut Summary
 
-- When working with blocks that contain embed or reference, line breaks can often be a source of annoyance. Fortunately, there is a solution!
+  1. Add empty lines before and after a block
+    - Place your cursor within the block.
+  2. Add an empty line below
+    - Shortcut key: Press `Alt` and `Enter` simultaneously.
+  3. Add multiple empty lines above
+    - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously.
+  4. Add multiple empty lines below
+    - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
 
-### Add single blank line
+       ![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
 
-- For any reference or content
+  1. Add empty lines to the entire page
+     - Right-click on the page name to access the menu. Choose one of the following options:
+     1. Menu item `🦢 Add Blank Lines (Top⏫)`
+       - Adds the specified number of lines at the top of the page, as set in the plugin configuration.
+     2. Menu item `🦢 Add Blank Lines (Bottom⏬)`
+       - Adds the specified number of lines at the bottom of the page, as set in the plugin configuration.
 
-#### Shortcut key `Alt` + `Enter` in the block
-
-### Add Blank lines (previous)
-
-#### Shortcut key `Ctrl/mod` + `Pg-Up` in the block
-
-### Add blank lines (next)
-
-#### Shortcut key `Ctrl/mod` + `Pg-Down` in the block
-
-![BlankLineShortCutKey](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/e3841dda-f8b1-463a-af3c-81bc54d44982)
-
-### Prepend blank lines to the page
-
-#### Select `🦢Add blank lines (prepend⏫)` or `🦢Blank line (append⏬)` on the menu of page title (on right click)
-
-![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
+       ![BlankLinePageMenu](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/c74c9dac-4e07-45e2-9001-db52b055da21)
 
 ---
 
 ## Getting Started
 
-### Install from Logseq Marketplace
+Install from the Logseq Marketplace
 
-- Press [`---`] on the top right toolbar to open [`Plugins`]. Select `Marketplace`. Type `Blank` in the search field, select it from the search results and install.
+   - Click [`---`] in the top toolbar, open [`Plugins`]. Choose [`Marketplace`] and search for `Blank`, then select and install from the search results.
 
-  ![image](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/668cace9-8da2-4b90-91f7-4353f073c911)
+  ![Image](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/668cace9-8da2-4b90-91f7-4353f073c911)
 
-### Plugin Settings
+### Plugin Configuration
 
-- Number of inserting blank lines (previous): select
+- Select the number of lines to insert above
   - `1`-`20`
-- Number of inserting blank lines (next): select
+- Select the number of lines to insert below
   - `1`-`20`
-- Number of inserting blank lines (from the page menu): select
+- Select the number of lines to insert from the page menu
   - `1`-`30`
-  > Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`
-- Enable bullet context menu: toggle
+- Enable bullet context menu: Toggle
   - `true`
-  - `false` default
+  - Default: `false`
 
 ---
 
 ## Showcase / Questions / Ideas / Help
 
-> Go to the [discussion](https://github.com/YU000jp/logseq-plugin-blank-line/discussions) tab to ask and find this kind of things.
+> Visit the [Discussion](https://github.com/YU000jp/logseq-plugin-blank-line/discussions) tab to find information, ask questions, and more.
 
-## Author
+## Credits
 
-- GitHub: [YU000jp](https://github.com/YU000jp)
+Icon > [icooon-mono.com](https://icooon-mono.com/14658-%e3%82%b9%e3%83%af%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%88%e3%81%ae%e7%84%a1%e6%96%99%e3%82%a4%e3%83%a9%e3%82%b9%e3%83%883/)
 
-## Prior art & Credit
+Creator > [YU000jp (GitHub)](https://github.com/YU000jp)
 
-### Icon
-
-- [icooon-mono.com](https://icooon-mono.com/14658-%e3%82%b9%e3%83%af%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%88%e3%81%ae%e7%84%a1%e6%96%99%e3%82%a4%e3%83%a9%e3%82%b9%e3%83%883/)
-
----
-
-<a href="https://www.buymeacoffee.com/yu000japan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="🍌Buy Me A Coffee" style="height: 42px;width: 152px" ></a>
+<a href="https://www.buymeacoffee.com/yu000japan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="🍌 Buy Me a Coffee" style="height: 42px;width: 152px" ></a>
