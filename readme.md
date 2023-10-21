@@ -2,7 +2,7 @@
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
-This plugin allows you to insert empty lines above or below selected blocks or within a page.
+insert empty lines above or below selected blocks or within a page.
 > Useful for creating empty lines in bulk or when it's challenging to move to the next line, such as block references.
 
 [![Latest Release Version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
