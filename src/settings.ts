@@ -1,15 +1,33 @@
-import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user';
-import { t } from "logseq-l10n";
+import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user'
+import { t } from "logseq-l10n"
 
 /* user setting */
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
 export const settingsTemplate = (): SettingSchemaDesc[] => [
+
+    {// ブロッククリアの箇条書きメニューと、コマンドパレットメニュー
+        key: "headingClearBlocks",
+        title: t("Clear block from the bullet menu item and command pallet menu item"),
+        type: "heading",
+        default: "",
+        description: t("(⚠️need to turn off this plugin or restart Logseq to take effect)"),
+    },
+    {
+        key: "loadClearBlocks",
+        title: t("Enable"),
+        type: "boolean",
+        default: true,
+        description:
+            //どこかのブロックにカーソルがある状態でEscキーを押すと、そのブロックが選択される。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他のブロックを選択する。ショートカット🖱️"Ctrl(Cmd)+Del"を押すと、ブロックの内容が消去される。
+            t("Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block."),
+    },
+
     {
         key: "blank1lineOnly",
         title: t("Add blank line (Only one line)"),
         type: "heading",
         default: "",
-        description: "Shortcut key: `Alt+Enter`",
+        description: t("Shortcut key")+": `Alt+Enter`",
     },
     {
         key: "previousLineBlank",
@@ -17,7 +35,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-        description: "Shortcut key: `Ctrl/Mod+Pg-Up`",
+        description: t("Shortcut key")+": `Ctrl/Mod+Pg-Up`",
     },
     {
         key: "nextLineBlank",
@@ -25,7 +43,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-        description: "Shortcut key: `Ctrl/Mod+Pg-Down`",
+        description: t("Shortcut key")+": `Ctrl/Mod+Pg-Down`",
     },
     {
         key: "nextLineBlankFromPageMenu",
@@ -33,15 +51,15 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "10",
         enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
-        description: "Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`",
+        description: t("Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`"),
     },
     {
         key: "bulletContextMenuItem",
         type: "boolean",
-        title: t("Enable bullet context menu"),
+        title: t("Blank line > Enable bullet context menu item"),
         description: `default: \`false\`
-    \`🦢Add blank lines (next line) ⤵️\` and \`🦢Add blank line (Only one line) ⤵️\`
-    (⚠️need to turn off this plugin or restart Logseq to take effect)`,
+    ${t("(⚠️need to turn off this plugin or restart Logseq to take effect)")}`,
         default: false,
     },
-];
+
+]

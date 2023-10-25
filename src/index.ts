@@ -1,9 +1,9 @@
 import '@logseq/libs'; //https://plugins-doc.logseq.com/
-import { BlockEntity, PageEntity } from '@logseq/libs/dist/LSPlugin.user';
+import { BlockEntity, PageEntity } from '@logseq/libs/dist/LSPlugin.user'
 import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
-import ja from "./translations/ja.json";
-import { settingsTemplate } from './settings';
-
+import { loadClearBlocks } from "./clearBlocks"
+import { settingsTemplate } from './settings'
+import ja from "./translations/ja.json"
 
 /* main */
 const main = async () => {
@@ -72,6 +72,10 @@ const main = async () => {
     if (numberBlankLine - 1 >= 1) createBlankLine(newBlock.uuid, numberBlankLine - 1);
   });
 
+
+    // ブロッククリアの箇条書きメニューと、コマンドパレットメニュー
+  if (logseq.settings!.loadClearBlocks === true) loadClearBlocks();
+  
 };/* end_main */
 
 
