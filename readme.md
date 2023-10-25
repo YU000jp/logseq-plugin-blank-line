@@ -27,9 +27,9 @@ Inserting Rows
   - Adding rows to a page
     - Right-click on the page name to access a menu. Select one of the following options.
        > The number of rows can be configured in the plugin settings.
-    1. Menu Item `🦢 Add Blank Lines to Page Top ⏫`
+    1. Menu Item `🦢 Blank Lines to Top ⏫`
         > Add the specified number of lines to the top of the page.
-    2. Menu Item `🦢 Add Blank Lines to Page Bottom ⏬`
+    2. Menu Item `🦢 Blank Lines to Bottom ⏬`
         > Add the specified number of lines to the bottom of the page.
 
 Clearing Rows
