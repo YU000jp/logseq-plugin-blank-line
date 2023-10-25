@@ -7,27 +7,35 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
 
     {// ブロッククリアの箇条書きメニューと、コマンドパレットメニュー
         key: "headingClearBlocks",
-        title: t("Clear block from the bullet menu item and command pallet menu item"),
+        title: t("Clear block feature > From the bullet menu item or command pallet menu item"),
         type: "heading",
         default: "",
-        description: t("(⚠️need to turn off this plugin or restart Logseq to take effect)"),
+        description:
+        //どこかのブロックにカーソルがある状態でEscキーを押すと、そのブロックが選択される。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他のブロックを選択する。ショートカット🖱️"Ctrl(Cmd)+Del"を押すと、ブロックの内容が消去される。
+        t("Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block."),
     },
     {
         key: "loadClearBlocks",
         title: t("Enable"),
         type: "boolean",
         default: true,
-        description:
-            //どこかのブロックにカーソルがある状態でEscキーを押すと、そのブロックが選択される。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他のブロックを選択する。ショートカット🖱️"Ctrl(Cmd)+Del"を押すと、ブロックの内容が消去される。
-            t("Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block."),
+        description: t("(⚠️need to turn off this plugin or restart Logseq to take effect)"),
     },
 
-    {
-        key: "blank1lineOnly",
-        title: t("Add blank line (Only one line)"),
+    {// heading
+        key: "headingBlankLine",
+        title: t("Blank line feature"),
         type: "heading",
         default: "",
-        description: t("Shortcut key")+": `Alt+Enter`",
+        description: ""
+    },
+    {
+        key: "blankOneLine",
+        title: t("Add a blank line"),
+        type: "enum",
+        enumChoices: ["1"],
+        default: "1",
+        description: t("Shortcut key") + ": `Alt`+ `Enter`",
     },
     {
         key: "previousLineBlank",
@@ -35,7 +43,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-        description: t("Shortcut key")+": `Ctrl/Mod+Pg-Up`",
+        description: t("Shortcut key") + ": `Ctrl` or `Mod` + `Pg-Up`",
     },
     {
         key: "nextLineBlank",
@@ -43,7 +51,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
-        description: t("Shortcut key")+": `Ctrl/Mod+Pg-Down`",
+        description: t("Shortcut key") + ": `Ctrl` or `Mod` + `Pg-Down`",
     },
     {
         key: "nextLineBlankFromPageMenu",
@@ -51,7 +59,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "10",
         enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
-        description: t("Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`"),
+        description: t("Page title menu > `🦢 Add Blank Lines to Page Top ⏫` / `🦢 Add Blank Lines to Page Bottom ⏬`"),
     },
     {
         key: "bulletContextMenuItem",

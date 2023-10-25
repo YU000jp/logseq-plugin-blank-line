@@ -1,9 +1,10 @@
 {
     "(⚠️need to turn off this plugin or restart Logseq to take effect)": "（⚠️反映するには、このプラグインをオフにするか、Logseqを再起動する必要があります）",
-    "Add blank line (Only one line)": "次の行を追加する",
+    "Add a blank line": "次の行を追加する",
     "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "どこかの行にカーソルがある状態でEscキーを押すと、その行が選択されます。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他の行を選択します。ショートカット🖱️「Ctrl(Cmd)+Del」を押すと、それらの行の内容が消去されます。",
     "Blank line > Enable bullet context menu item": "空白行 > 箇条書きメニューの項目を有効にする",
-    "Clear block from the bullet menu item and command pallet menu item": "行をクリアするための箇条書きメニュー項目と、コマンドパレットメニュー項目",
+    "Blank line feature": "行を追加する機能",
+    "Clear block feature > From the bullet menu item or command pallet menu item": "行のクリア機能 > 箇条書きメニューまたはコマンドパレットの項目から",
     "Clear blocks (selected)": "選択した行をクリアする",
     "Clear the block": "この行をクリアする",
     "Cleared the blocks": "指定した行をクリアしました",
@@ -12,11 +13,12 @@
     "Number of inserting blank lines (from the page menu)": "ページメニューから挿入する空白の行数",
     "Number of inserting blank lines (next)": "空白を下に挿入する行数",
     "Number of inserting blank lines (previous)": "空白を上に挿入する行数",
-    "Page title menu: `🦢Add blank lines (prepend⏫)` and `🦢Blank line (append⏬)`": "ページメニュー: `🦢ページ先頭に空白を追加する ⏫` と `🦢ページ最後に空白を追加する ⏬`",
+    "Page title menu > `🦢 Add Blank Lines to Page Top ⏫` / `🦢 Add Blank Lines to Page Bottom ⏬`": "ページメニュー > 「🦢 ページ最後に、空白を追加する ⏬」と「🦢 ページ先頭に、空白を追加する ⏫」",
     "Shortcut key": "ショートカットキー(同時押し)",
-    "🦢Add blank line (Only one line) ⤵️": "次の行を追加する ⤵️",
-    "🦢Add blank lines (next line) ⤵️": "この下に、複数の行を追加する ⤵️",
-    "🦢Add blank lines (prepend⏫)": "ページ先頭に、空白を追加する ⏫",
-    "🦢Add blank lines (previous) ⤴️": "上に、空白を追加する ⤴️",
-    "🦢Blank line (append⏬)": "ページ最後に、空白を追加する ⏬"
+    "🦢 Add a blank line ⤵️": "🦢 次の行を追加する ⤵️",
+    "🦢 Add blank lines (previous) ⤴️": "🦢 上に、空白を追加する ⤴️",
+    "🦢 Add Blank Lines to Page Bottom ⏬": "🦢 ページ最後に、空白を追加する ⏬",
+    "🦢 Add Blank Lines to Page Top ⏫": "🦢 ページ先頭に、空白を追加する ⏫",
+    "🦢 Add blank lines ⤵️": "🦢 この下に、複数の行を追加する ⤵️",
+    "🦢 Done!": " 🦢 完了!"
 }
