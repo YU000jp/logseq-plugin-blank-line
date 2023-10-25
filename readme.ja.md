@@ -2,8 +2,9 @@
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
-選択した行または、ページ内の先頭や最後にまとめて行を挿入します。
-> ブロック参照(行の引用)や埋め込みがあって、次の行に移動しにくい場合などに役立ちます。
+1. 選択した行または、ページ内の先頭や最後にまとめて行を挿入します。
+   > ブロック参照(行の引用)や埋め込みがあって、次の行に移動しにくい場合などに役立ちます。
+1. 行(ブロック)のクリア機能
 
 [![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![ライセンス](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
