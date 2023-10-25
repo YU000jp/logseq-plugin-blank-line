@@ -59,7 +59,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
         type: "enum",
         default: "10",
         enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
-        description: t("Page title menu > `🦢 Add Blank Lines to Page Top ⏫` / `🦢 Add Blank Lines to Page Bottom ⏬`"),
+        description: t("Page title menu > `🦢 Blank Lines to Top ⏫` / `🦢 Blank Lines to Bottom ⏬`"),
     },
     {
         key: "bulletContextMenuItem",

@@ -13,12 +13,12 @@
     "Number of inserting blank lines (from the page menu)": "ページメニューから挿入する空白の行数",
     "Number of inserting blank lines (next)": "空白を下に挿入する行数",
     "Number of inserting blank lines (previous)": "空白を上に挿入する行数",
-    "Page title menu > `🦢 Add Blank Lines to Page Top ⏫` / `🦢 Add Blank Lines to Page Bottom ⏬`": "ページメニュー > 「🦢 ページ最後に、空白を追加する ⏬」と「🦢 ページ先頭に、空白を追加する ⏫」",
+    "Page title menu > `🦢 Blank Lines to Top ⏫` / `🦢 Blank Lines to Bottom ⏬`": "ページメニュー > 「🦢 最後に、空白を追加 ⏬」と「🦢 先頭に、空白を追加 ⏫」",
     "Shortcut key": "ショートカットキー(同時押し)",
-    "🦢 Add a blank line ⤵️": "🦢 次の行を追加する ⤵️",
-    "🦢 Add blank lines (previous) ⤴️": "🦢 上に、空白を追加する ⤴️",
-    "🦢 Add Blank Lines to Page Bottom ⏬": "🦢 ページ最後に、空白を追加する ⏬",
-    "🦢 Add Blank Lines to Page Top ⏫": "🦢 ページ先頭に、空白を追加する ⏫",
-    "🦢 Add blank lines ⤵️": "🦢 この下に、複数の行を追加する ⤵️",
+    "🦢 A blank line ⤵️": "🦢 次の行を追加 ⤵️",
+    "🦢 Blank lines (previous) ⤴️": "🦢 上に、空白を追加 ⤴️",
+    "🦢 Blank Lines to Bottom ⏬": "🦢 最後に、空白を追加 ⏬",
+    "🦢 Blank Lines to Top ⏫": "🦢 先頭に、空白を追加 ⏫",
+    "🦢 Blank lines ⤵️": "🦢 この下に、複数の行を追加 ⤵️",
     "🦢 Done!": " 🦢 完了!"
 }
