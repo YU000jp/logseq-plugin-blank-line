@@ -33,11 +33,11 @@ Inserting Rows
         > Add the specified number of lines to the bottom of the page.
 
 Clearing Rows
-  1. Select "Clear the block" from the bullet menu to delete a line.
+  1. Select `Clear the block` from the bullet menu to delete a line.
   2. To select multiple lines:
-      1. Press the Esc key with the cursor on any line to select that line.
-      2. Hold down the Shift key or Ctrl (Cmd) key and select other lines using the cursor keys or the mouse.
-      3. Press the shortcut 🖱️ "Ctrl(Cmd)+Del" to clear the contents of those lines.
+      1. Press the `Esc` key with the cursor on any line to select that line.
+      2. Hold down the `Shift` key or `Ctrl` (`Cmd`) key and select other lines using the cursor keys or the mouse.
+      3. Press the shortcut 🖱️ `Ctrl` or `Cmd` and `Del` to clear the contents of those lines.
 
 ---
 
