@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.4.0...v1.5.0) (2023-10-25)
+
+
+### Bug Fixes
+
+* **doc:** Changed the words used in the plugin. ([7f39922](https://github.com/YU000jp/logseq-plugin-blank-line/commit/7f39922ede41b30cf8c115a1c01a9a45fe04b382))
+* **doc:** Changed the words used in the plugin. ([08914c2](https://github.com/YU000jp/logseq-plugin-blank-line/commit/08914c2e3fc2b6a5a2df9512dff0509dfe08ad54))
+
+
+### Features
+
+* **Add:** "Clear Block(s)" feature ([ef9b306](https://github.com/YU000jp/logseq-plugin-blank-line/commit/ef9b306dc554b6bb46e9682b0daeda2d72d90f56))
+
 # [1.4.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.3.5...v1.4.0) (2023-09-29)
 
 
