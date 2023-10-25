@@ -2,7 +2,8 @@
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
-Insert Rows (blocks) at Selected Lines or the Beginning and End of a Page.
+1. Insert Rows (blocks) at Selected Lines or the Beginning and End of a Page.
+1. Clear block(s) feature
 
 > Useful when dealing with block references (line quotations) or embedded elements, making it difficult to move to the next line.
 
