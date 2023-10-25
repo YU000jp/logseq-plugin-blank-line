@@ -2,33 +2,42 @@
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
-Insert empty lines above or below selected blocks or within a page.
-> Useful for creating empty lines in bulk or when it's challenging to move to the next line, such as block references.
+Insert Rows (blocks) at Selected Lines or the Beginning and End of a Page.
+
+> Useful when dealing with block references (line quotations) or embedded elements, making it difficult to move to the next line.
 
 [![Latest Release Version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-blank-line/total.svg)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
-  Published on: 2023/08/07
+[![Download](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-blank-line/total.svg)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
+Release Date: 2023/08/07
 
 ## Overview
 
-Shortcut Summary
+### Shortcut List
 
-  1. Add empty lines before and after a block
-     - Place your cursor within the block.
-  2. Add an empty line below
-     - Shortcut key: Press `Alt` and `Enter` simultaneously.
-  3. Add multiple empty lines above
-     - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously.
-  4. Add multiple empty lines below
-     - Shortcut key: Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
+Inserting Rows
+  - Execute commands with shortcut keys from the currently edited line.
+    1. Create the next line
+       - Press `Alt` and `Enter` simultaneously
+    2. Add multiple lines (above)
+       - Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously
+    3. Add multiple lines (below)
+       - Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
 
-  1. Add empty lines to the entire page
-     - Right-click on the page name to access the menu. Choose one of the following options:
-     1. Menu item `🦢 Add Blank Lines (Top⏫)`
-        - Adds the specified number of lines at the top of the page, as set in the plugin configuration.
-     2. Menu item `🦢 Add Blank Lines (Bottom⏬)`
-        - Adds the specified number of lines at the bottom of the page, as set in the plugin configuration.
+  - Adding rows to a page
+    - Right-click on the page name to access a menu. Select one of the following options.
+       > The number of rows can be configured in the plugin settings.
+    1. Menu Item `🦢 Add Empty Lines to Page Top ⏫`
+        > Add the specified number of lines to the top of the page.
+    2. Menu Item `🦢 Add Empty Lines to Page Bottom ⏬`
+        > Add the specified number of lines to the bottom of the page.
+
+Clearing Rows
+  1. Select "Clear the block" from the bullet menu to delete a line.
+  2. To select multiple lines:
+      1. Press the Esc key with the cursor on any line to select that line.
+      2. Hold down the Shift key or Ctrl (Cmd) key and select other lines using the cursor keys or the mouse.
+      3. Press the shortcut 🖱️ "Ctrl(Cmd)+Del" to clear the contents of those lines.
 
 ---
 
