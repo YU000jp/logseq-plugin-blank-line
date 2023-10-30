@@ -51,7 +51,7 @@ export const commandItem = () => {
     if (thisPage === null) return
     const newBlock = await logseq.Editor.prependBlockInPage(page, "") as BlockEntity | null
     if (!newBlock) return
-    if (thisPage['journal?'] === true) { //ジャーナルの場合は先頭行にprependBlockInPageが使えない
+    if (thisPage['journal?'] === true) { //日誌の場合は先頭行にprependBlockInPageが使えない
       const pageBlockTree = await logseq.Editor.getPageBlocksTree(page) as BlockEntity[]
       await logseq.Editor.moveBlock(newBlock.uuid, pageBlockTree[0].uuid, { before: true, })
     }
