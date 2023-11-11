@@ -1,4 +1,4 @@
-# Logseq Plugin: Blank Line 🦢
+# Logseq Plugin: Blank Line Shortcut 🦢
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
