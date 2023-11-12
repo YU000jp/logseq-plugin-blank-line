@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.5.0...v1.6.0) (2023-11-12)
+
+
+### Features
+
+* translations full Logseq language ([bbb9439](https://github.com/YU000jp/logseq-plugin-blank-line/commit/bbb94393ceef2e8f542f8c816f18f2f44ae885c5))
+
 # [1.5.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.4.0...v1.5.0) (2023-10-25)
 
 
