@@ -1,6 +1,5 @@
 import { BlockEntity, PageEntity } from '@logseq/libs/dist/LSPlugin.user'
 import { t } from "logseq-l10n"
-import { createBlankLine } from '.'
 
 export const commandItem = () => {
   if (logseq.settings!.bulletContextMenuItem === true) {
@@ -67,4 +66,12 @@ export const commandItem = () => {
     let numberBlankLine = Number(logseq.settings?.nextLineBlankFromPageMenu) || 1
     if (numberBlankLine - 1 >= 1) createBlankLine(newBlock.uuid, numberBlankLine - 1)
   })
+}
+
+
+export const createBlankLine = (uuid: string, numberOfBlankLine: number) => {
+  for (let i = 0; i < numberOfBlankLine; i++) {
+    logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true })
+  }
+  logseq.UI.showMsg(t(" 🦢 Done!"), "info")
 }
