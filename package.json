@@ -6,7 +6,7 @@
     "license": "MIT",
     "logseq": {
         "id": "blank-line",
-        "title": "New LIne / Clear Shortcut",
+        "title": "New Line Shortcut",
         "icon": "./icon.svg",
         "main": "./dist/index.html"
     },

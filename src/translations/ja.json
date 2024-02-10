@@ -1,13 +1,7 @@
 {
-    "(⚠️need to turn off this plugin or restart Logseq to take effect)": "（⚠️反映するには、このプラグインをオフにするか、Logseqを再起動する必要があります）",
     "Add a blank line": "次の行を追加する",
-    "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "どこかの行にカーソルがある状態でEscキーを押すと、その行が選択されます。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他の行を選択します。ショートカット🖱️「Ctrl(Cmd)+Del」を押すと、それらの行の内容が消去されます。",
     "Blank line > Enable bullet context menu item": "空白行 > 箇条書きメニューの項目を有効にする",
     "Blank line feature": "行を追加する機能",
-    "Clear block feature > From the bullet menu item or command pallet menu item": "行のクリア機能 > 箇条書きメニューまたはコマンドパレットの項目から",
-    "Clear blocks (selected)": "選択した行をクリアする",
-    "Clear the block": "この行をクリアする",
-    "Cleared the blocks": "指定した行をクリアしました",
     "Enable": "有効にする",
     "No blocks selected": "行が選択されていません",
     "Number of inserting New lines (from the page menu)": "ページメニューから挿入する空白の行数",
@@ -16,9 +10,9 @@
     "Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`": "ページメニュー > 「🦢 最後に、空白を追加 ⏬」と「🦢 先頭に、空白を追加 ⏫」",
     "Shortcut key": "ショートカットキー(同時押し)",
     "🦢 A blank line ⤵️": "🦢 次の行を追加 ⤵️",
+    "🦢 Done!": " 🦢 完了!",
     "🦢 New lines (previous) ⤴️": "🦢 上に、空白を追加 ⤴️",
     "🦢 New lines to Bottom ⏬": "🦢 最後に、空白を追加 ⏬",
     "🦢 New lines to Top ⏫": "🦢 先頭に、空白を追加 ⏫",
-    "🦢 New lines ⤵️": "🦢 この下に、複数の行を追加 ⤵️",
-    "🦢 Done!": " 🦢 完了!"
+    "🦢 New lines ⤵️": "🦢 この下に、複数の行を追加 ⤵️"
 }

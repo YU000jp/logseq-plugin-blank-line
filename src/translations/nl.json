@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ (U moet deze plug-in uitschakelen of Logseq opnieuw opstarten om deze van kracht te laten worden)",
   "Add a blank line": "Voeg de volgende regel toe",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Als de cursor op een lijn staat en u op de Esc-toets drukt, wordt die rij geselecteerd. Houd de Shift- of Ctrl-toets (Cmd) ingedrukt en selecteer andere rijen met de cursortoetsen of de muis. Als u op de sneltoets 🖱️ \"Ctrl (Cmd) + Del\" drukt, wordt de inhoud van die regels gewist.",
   "Blank line > Enable bullet context menu item": "Menu-items met opsommingstekens inschakelen voor lege regels >",
   "Blank line feature": "Mogelijkheid om rijen toe te voegen",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Lijnen wissen > uit een menu met opsommingstekens of een item in het opdrachtpalet",
-  "Clear blocks (selected)": "Geselecteerde rijen wissen",
-  "Clear the block": "Wis deze regel",
-  "Cleared the blocks": "De opgegeven regel is gewist",
   "Enable": "Activeren",
   "No blocks selected": "Geen rij geselecteerd",
   "Number of inserting New lines (from the page menu)": "Aantal lege rijen dat moet worden ingevoegd vanuit het paginamenu",

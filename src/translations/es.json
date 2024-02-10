@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ (Deberá desactivar este complemento o reiniciar Logseq para que surta efecto)",
   "Add a blank line": "Agregue la siguiente línea",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Si el cursor está en una línea y presiona la tecla Esc, esa fila está seleccionada. Mantenga pulsada la tecla Mayús o Ctrl (Cmd) y seleccione otras filas con las teclas del cursor o con el ratón. Al presionar el atajo 🖱️ \"Ctrl (Cmd) + Supr\" se borrará el contenido de esas líneas.",
   "Blank line > Enable bullet context menu item": "Habilitar elementos de menú con viñetas > líneas en blanco",
   "Blank line feature": "Posibilidad de agregar filas",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Borrar líneas > desde un menú con viñetas o un elemento de paleta de comandos",
-  "Clear blocks (selected)": "Borrar filas seleccionadas",
-  "Clear the block": "Borrar esta línea",
-  "Cleared the blocks": "Se ha borrado la línea especificada",
   "Enable": "Activar",
   "No blocks selected": "No hay ninguna fila seleccionada",
   "Number of inserting New lines (from the page menu)": "Número de filas en blanco que se van a insertar desde el menú de la página",
@@ -16,9 +10,9 @@
   "Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`": "Menú de página > \"Añadir espacio al final\" y \"Añadir ⏬ ⏫ espacio en blanco al principio\" 🦢 🦢",
   "Shortcut key": "Teclas de acceso directo (pulsaciones simultáneas)",
   "🦢 A blank line ⤵️": "🦢 Agregue ⤵️ la siguiente línea:",
+  "🦢 Done!": " 🦢 ¡Terminado!",
   "🦢 New lines (previous) ⤴️": "🦢 Añade un espacio en la ⤴️ parte superior",
   "🦢 New lines to Bottom ⏬": "🦢 Por último, añade ⏬ un espacio",
   "🦢 New lines to Top ⏫": "🦢 Añade un espacio al ⏫ principio",
-  "🦢 New lines ⤵️": "🦢 Debajo de esto, agregue ⤵️ varias líneas",
-  "🦢 Done!": " 🦢 ¡Terminado!"
+  "🦢 New lines ⤵️": "🦢 Debajo de esto, agregue ⤵️ varias líneas"
 }

@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ (Dovrai disattivare questo plugin o riavviare Logseq affinché abbia effetto)",
   "Add a blank line": "Aggiungi la seguente riga",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Se il cursore si trova su una riga e si preme il tasto Esc, tale riga viene selezionata. Tenere premuto il tasto Maiusc o Ctrl (Cmd) e selezionare altre righe con i tasti cursore o con il mouse. Premendo la scorciatoia 🖱️ \"Ctrl (Cmd) + Canc\" si cancellerà il contenuto di quelle righe.",
   "Blank line > Enable bullet context menu item": "Abilita le voci di menu puntate > righe vuote",
   "Blank line feature": "Possibilità di aggiungere righe",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Cancellare le righe > da un menu puntato o da un elemento del riquadro comandi",
-  "Clear blocks (selected)": "Cancella le righe selezionate",
-  "Clear the block": "Cancella questa riga",
-  "Cleared the blocks": "Cancellata la riga specificata",
   "Enable": "Attivare",
   "No blocks selected": "Nessuna riga selezionata",
   "Number of inserting New lines (from the page menu)": "Numero di righe vuote da inserire dal menu Pagina",
@@ -16,9 +10,9 @@
   "Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`": "Il menu Pagina > \"Aggiungi spazio alla fine\" e \"Aggiungi ⏬ ⏫ spazio vuoto all'inizio\" 🦢 🦢",
   "Shortcut key": "Tasti di scelta rapida (pressioni simultanee)",
   "🦢 A blank line ⤵️": "🦢 Aggiungi ⤵️ la seguente riga:",
+  "🦢 Done!": " 🦢 Finito!",
   "🦢 New lines (previous) ⤴️": "🦢 Aggiungere uno spazio all'inizio ⤴️",
   "🦢 New lines to Bottom ⏬": "🦢 Infine, aggiungi ⏬ uno spazio",
   "🦢 New lines to Top ⏫": "🦢 Aggiungere uno spazio all'inizio ⏫",
-  "🦢 New lines ⤵️": "🦢 Al di sotto di questo, aggiungi ⤵️ più righe",
-  "🦢 Done!": " 🦢 Finito!"
+  "🦢 New lines ⤵️": "🦢 Al di sotto di questo, aggiungi ⤵️ più righe"
 }

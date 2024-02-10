@@ -1,10 +1,9 @@
-# Logseq プラグイン: New Line / Clear Shortcut 🦢
+# Logseq プラグイン: New Line Shortcut 🦢
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
 1. 選択した行または、ページ内の先頭やその最後に、行をまとめて挿入します。
    > ブロック参照(行の引用)や埋め込みがあって、次の行に移動しにくい場合などに役立ちます。
-1. 行(ブロック)のクリア機能
 
 [![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![ライセンス](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
@@ -31,13 +30,6 @@
         > ページの先頭に、指定された数だけ行を追加します。
     1. メニュー項目 `🦢 最後に、空白を追加 ⏬`
         > ページの最後に、指定された数だけ行を追加します。
-
-行をクリアする
-  1. 箇条書きメニューで、`この行をクリアする` を選択すると、その行が削除されます。
-  1. 複数の行を選択するには
-      1. どこかの行にカーソルがある状態で`Esc`キーを押すと、その行が選択されます。
-      1. `Shift`キーや`Ctrl`(`Cmd`)キーを押しながら、カーソルキーやマウスでその他の行を選択します。
-      1. ショートカット🖱️ `Ctrl`または `Cmd` と `Del` を押すと、それらの行の内容が消去されます。
 
 ---
 

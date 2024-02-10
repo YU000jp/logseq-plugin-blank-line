@@ -5,23 +5,6 @@ import { t } from "logseq-l10n"
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
 export const settingsTemplate = (): SettingSchemaDesc[] => [
 
-    {// ブロッククリアの箇条書きメニューと、コマンドパレットメニュー
-        key: "headingClearBlocks",
-        title: t("Clear block feature > From the bullet menu item or command pallet menu item"),
-        type: "heading",
-        default: "",
-        description:
-        //どこかのブロックにカーソルがある状態でEscキーを押すと、そのブロックが選択される。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他のブロックを選択する。ショートカット🖱️"Ctrl(Cmd)+Del"を押すと、ブロックの内容が消去される。
-        t("Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block."),
-    },
-    {
-        key: "loadClearBlocks",
-        title: t("Enable"),
-        type: "boolean",
-        default: true,
-        description: t("(⚠️need to turn off this plugin or restart Logseq to take effect)"),
-    },
-
     {// heading
         key: "headingBlankLine",
         title: t("Blank line feature"),

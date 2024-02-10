@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ (Sie müssen dieses Plugin deaktivieren oder Logseq neu starten, damit es wirksam wird)",
   "Add a blank line": "Fügen Sie die folgende Zeile hinzu",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Wenn sich der Cursor auf einer Zeile befindet und Sie die Esc-Taste drücken, wird diese Zeile ausgewählt. Halten Sie die Umschalt- oder Strg-Taste (Cmd) gedrückt und wählen Sie andere Zeilen mit den Cursortasten oder der Maus aus. Durch Drücken der Tastenkombination 🖱️ \"Strg (Cmd) + Entf\" wird der Inhalt dieser Zeilen gelöscht.",
   "Blank line > Enable bullet context menu item": "Aktivieren von Leerzeilen > Menüelementen mit Aufzählungszeichen",
   "Blank line feature": "Möglichkeit zum Hinzufügen von Zeilen",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Löschen von Linien > aus einem Aufzählungsmenü oder Befehlspalettenelement",
-  "Clear blocks (selected)": "Ausgewählte Zeilen löschen",
-  "Clear the block": "Löschen Sie diese Zeile",
-  "Cleared the blocks": "Die angegebene Zeile wurde gelöscht.",
   "Enable": "Aktivieren",
   "No blocks selected": "Keine Zeile ausgewählt",
   "Number of inserting New lines (from the page menu)": "Anzahl der leeren Zeilen, die aus dem Seitenmenü eingefügt werden sollen",
@@ -16,9 +10,9 @@
   "Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`": "Seitenmenü > \"Leerzeichen am Ende hinzufügen\" und \"Leerzeichen am Anfang hinzufügen ⏬ ⏫\" 🦢 🦢",
   "Shortcut key": "Tastenkombinationen (gleichzeitiges Drücken)",
   "🦢 A blank line ⤵️": "🦢 Fügen Sie die folgende Zeile hinzu ⤵️:",
+  "🦢 Done!": " 🦢 Fertig!",
   "🦢 New lines (previous) ⤴️": "🦢 Fügen Sie oben ⤴️ ein Leerzeichen hinzu",
   "🦢 New lines to Bottom ⏬": "🦢 Fügen Sie abschließend ein Leerzeichen hinzu ⏬",
   "🦢 New lines to Top ⏫": "🦢 Fügen Sie am Anfang ein Leerzeichen hinzu ⏫",
-  "🦢 New lines ⤵️": "🦢 Fügen Sie darunter mehrere Zeilen hinzu ⤵️",
-  "🦢 Done!": " 🦢 Fertig!"
+  "🦢 New lines ⤵️": "🦢 Fügen Sie darunter mehrere Zeilen hinzu ⤵️"
 }
