@@ -1,4 +1,4 @@
-# Logseq Plugin: Blank Line Shortcut 🦢
+# Logseq Plugin: New Line / Clear Shortcut 🦢
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
@@ -27,9 +27,9 @@ Inserting Rows
   - Adding rows to a page
     - Right-click on the page name to access a menu. Select one of the following options.
        > The number of rows can be configured in the plugin settings.
-    1. Menu Item `🦢 Blank Lines to Top ⏫`
+    1. Menu Item `🦢 New Lines to Top ⏫`
         > Add the specified number of lines to the top of the page.
-    2. Menu Item `🦢 Blank Lines to Bottom ⏬`
+    2. Menu Item `🦢 New Lines to Bottom ⏬`
         > Add the specified number of lines to the bottom of the page.
 
 Clearing Rows
@@ -45,9 +45,7 @@ Clearing Rows
 
 Install from the Logseq Marketplace
 
-   - Click [`---`] in the top toolbar, open [`Plugins`]. Choose [`Marketplace`] and search for `Blank`, then select and install from the search results.
-
-  ![Image](https://github.com/YU000jp/logseq-plugin-blank-line/assets/111847207/668cace9-8da2-4b90-91f7-4353f073c911)
+   - Click [`---`] in the top toolbar, open [`Plugins`]. Choose [`Marketplace`] and search for `Line`, then select and install from the search results.
 
 ### Plugin Configuration
 

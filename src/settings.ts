@@ -39,7 +39,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "previousLineBlank",
-        title: t("Number of inserting blank lines (previous)"),
+        title: t("Number of inserting New lines (previous)"),
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -47,7 +47,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "nextLineBlank",
-        title: t("Number of inserting blank lines (next)"),
+        title: t("Number of inserting New lines (next)"),
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -55,11 +55,11 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "nextLineBlankFromPageMenu",
-        title: t("Number of inserting blank lines (from the page menu)"),
+        title: t("Number of inserting New lines (from the page menu)"),
         type: "enum",
         default: "10",
         enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
-        description: t("Page title menu > `🦢 Blank Lines to Top ⏫` / `🦢 Blank Lines to Bottom ⏬`"),
+        description: t("Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`"),
     },
     {
         key: "bulletContextMenuItem",

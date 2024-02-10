@@ -3,7 +3,7 @@ import { t } from "logseq-l10n"
 
 export const commandItem = () => {
   if (logseq.settings!.bulletContextMenuItem === true) {
-    logseq.Editor.registerBlockContextMenuItem(t("🦢 Blank lines ⤵️"), async ({ uuid }) => {
+    logseq.Editor.registerBlockContextMenuItem(t("🦢 New lines ⤵️"), async ({ uuid }) => {
       if (!logseq.settings?.nextLineBlank) return
       createBlankLine(uuid, Number(logseq.settings?.nextLineBlank) || 1)
     })
@@ -13,7 +13,7 @@ export const commandItem = () => {
   }
 
   //前に空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: t("🦢 Blank lines (previous) ⤴️"), keybinding: { binding: 'mod+pg-up' } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesPrevious", label: t("🦢 New lines (previous) ⤴️"), keybinding: { binding: 'mod+pg-up' } }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank || !uuid) return
     const block = await logseq.Editor.insertBlock(uuid, "", { focus: true, sibling: true, before: true, })
     const numberBlankLine = Number(logseq.settings?.previousLineBlank) - 1
@@ -25,7 +25,7 @@ export const commandItem = () => {
   })
 
   //後ろに空行を追加
-  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: t("🦢 Blank lines ⤵️"), keybinding: { binding: 'mod+pg-down' } }, async ({ uuid }) => {
+  logseq.App.registerCommandPalette({ key: "createBlankLinesNext", label: t("🦢 New lines ⤵️"), keybinding: { binding: 'mod+pg-down' } }, async ({ uuid }) => {
     if (!logseq.settings?.nextLineBlank) return
     if (uuid) createBlankLine(uuid, Number(logseq.settings?.nextLineBlank));
 
@@ -43,7 +43,7 @@ export const commandItem = () => {
   })
 
   //ページの先頭に追加する
-  logseq.App.registerPageMenuItem(t("🦢 Blank Lines to Top ⏫"), async ({ page }) => {
+  logseq.App.registerPageMenuItem(t("🦢 New lines to Top ⏫"), async ({ page }) => {
     if (!page || !logseq.settings?.nextLineBlankFromPageMenu) return
 
     const thisPage = await logseq.Editor.getPage(page) as PageEntity || null
@@ -59,7 +59,7 @@ export const commandItem = () => {
   })
 
   //ページの最後に追加する
-  logseq.App.registerPageMenuItem(t("🦢 Blank Lines to Bottom ⏬"), async ({ page }) => {
+  logseq.App.registerPageMenuItem(t("🦢 New lines to Bottom ⏬"), async ({ page }) => {
     if (!page) return
     const newBlock = await logseq.Editor.appendBlockInPage(page, "") as BlockEntity | null
     if (!newBlock) return
