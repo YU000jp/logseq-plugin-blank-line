@@ -3,6 +3,14 @@
 
 ### Bug Fixes
 
+* **Rename:** Rename this plugin [#6](https://github.com/YU000jp/logseq-plugin-blank-line/issues/6) ([2c578eb](https://github.com/YU000jp/logseq-plugin-blank-line/commit/2c578eb9f6ce11c75d07e03804d21e53157770a7))
+* **Rename:** Rename this plugin [#6](https://github.com/YU000jp/logseq-plugin-blank-line/issues/6) ([f03bcd9](https://github.com/YU000jp/logseq-plugin-blank-line/commit/f03bcd9835cee01aab90bf023c475229fafde1bc))
+
+## [1.6.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.6.0...v1.6.1) (2024-2-10)
+
+
+### Bug Fixes
+
 * **Rename:** Rename this plugin [#6](https://github.com/YU000jp/logseq-plugin-blank-line/issues/6) ([f03bcd9](https://github.com/YU000jp/logseq-plugin-blank-line/commit/f03bcd9835cee01aab90bf023c475229fafde1bc))
 
 # [1.6.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.5.0...v1.6.0) (2023-11-12)
