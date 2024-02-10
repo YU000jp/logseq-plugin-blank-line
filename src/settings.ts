@@ -5,23 +5,6 @@ import { t } from "logseq-l10n"
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
 export const settingsTemplate = (): SettingSchemaDesc[] => [
 
-    {// ブロッククリアの箇条書きメニューと、コマンドパレットメニュー
-        key: "headingClearBlocks",
-        title: t("Clear block feature > From the bullet menu item or command pallet menu item"),
-        type: "heading",
-        default: "",
-        description:
-        //どこかのブロックにカーソルがある状態でEscキーを押すと、そのブロックが選択される。ShiftキーやCtrl(Cmd)キーを押しながら、カーソルキーやマウスでその他のブロックを選択する。ショートカット🖱️"Ctrl(Cmd)+Del"を押すと、ブロックの内容が消去される。
-        t("Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block."),
-    },
-    {
-        key: "loadClearBlocks",
-        title: t("Enable"),
-        type: "boolean",
-        default: true,
-        description: t("(⚠️need to turn off this plugin or restart Logseq to take effect)"),
-    },
-
     {// heading
         key: "headingBlankLine",
         title: t("Blank line feature"),
@@ -39,7 +22,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "previousLineBlank",
-        title: t("Number of inserting blank lines (previous)"),
+        title: t("Number of inserting New lines (previous)"),
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -47,7 +30,7 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "nextLineBlank",
-        title: t("Number of inserting blank lines (next)"),
+        title: t("Number of inserting New lines (next)"),
         type: "enum",
         default: "3",
         enumChoices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20",],
@@ -55,11 +38,11 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     },
     {
         key: "nextLineBlankFromPageMenu",
-        title: t("Number of inserting blank lines (from the page menu)"),
+        title: t("Number of inserting New lines (from the page menu)"),
         type: "enum",
         default: "10",
         enumChoices: ["1", "2", "3", "5", "7", "10", "15", "20", "30",],
-        description: t("Page title menu > `🦢 Blank Lines to Top ⏫` / `🦢 Blank Lines to Bottom ⏬`"),
+        description: t("Page title menu > `🦢 New lines to Top ⏫` / `🦢 New lines to Bottom ⏬`"),
     },
     {
         key: "bulletContextMenuItem",

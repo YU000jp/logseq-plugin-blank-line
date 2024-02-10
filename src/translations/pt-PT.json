@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ ( Você precisará desligar este plugin ou reiniciar o Logseq para que ele entre em vigor)",
   "Add a blank line": "Adicione a seguinte linha",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Se o cursor estiver em uma linha e você pressionar a tecla Esc, essa linha será selecionada. Mantenha pressionada a tecla Shift ou Ctrl (Cmd) e selecione outras linhas com as teclas do cursor ou o mouse. Pressionar o atalho 🖱️ \"Ctrl (Cmd) + Del\" apagará o conteúdo dessas linhas.",
   "Blank line > Enable bullet context menu item": "Ativar linha em branco > itens de menu com marcadores",
   "Blank line feature": "Capacidade de adicionar linhas",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Limpar > Linhas de um menu com marcadores ou item da Paleta de Comandos",
-  "Clear blocks (selected)": "Limpar linhas selecionadas",
-  "Clear the block": "Limpar esta linha",
-  "Cleared the blocks": "Limpa a linha especificada",
   "Enable": "Ativar",
   "No blocks selected": "Nenhuma linha selecionada",
   "Number of inserting blank lines (from the page menu)": "Número de linhas em branco a inserir a partir do menu de páginas",

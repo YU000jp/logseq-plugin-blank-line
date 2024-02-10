@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ （您需要關閉此外掛程式或重新啟動 Logseq 才能生效）",
   "Add a blank line": "添加以下行",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "如果游標位於某一行上，並且您按 Esc 鍵，則該行處於選中狀態。 按住 Shift 或 Ctrl （Cmd） 鍵，然後使用游標鍵或滑鼠選擇其他行。 按快捷鍵🖱️「Ctrl （Cmd） + Del“將擦除這些行的內容。",
   "Blank line > Enable bullet context menu item": "啟用項目符號功能表項>空行",
   "Blank line feature": "能夠添加行",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "清除項目符號功能表或命令面板項中的線條>",
-  "Clear blocks (selected)": "清除選取選行",
-  "Clear the block": "清除此行",
-  "Cleared the blocks": "已清除指定行",
   "Enable": "啟動",
   "No blocks selected": "未選擇任何行",
   "Number of inserting blank lines (from the page menu)": "要從頁面功能表中插入的空白行數",

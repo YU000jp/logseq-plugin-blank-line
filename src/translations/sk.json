@@ -1,13 +1,7 @@
 {
-  "(⚠️need to turn off this plugin or restart Logseq to take effect)": "⚠️ (Tento plugin budete musieť vypnúť alebo reštartovať Logseq, aby sa prejavil)",
   "Add a blank line": "Pridať nasledujúci riadok",
-  "Any block is selected by pressing the Esc key while the cursor is on a block. Select other blocks with the cursor key or mouse while pressing the Shift or Ctrl (Cmd) key. Press the shortcut 🖱️`Ctrl(Cmd)+Del` to clear the contents of the block.": "Ak je kurzor na čiare a stlačíte kláves Esc, tento riadok je vybratý. Podržte stlačený kláves Shift alebo Ctrl (cmd) a pomocou kurzorových klávesov alebo myši vyberte ďalšie riadky. Stlačením klávesovej skratky 🖱️ \"Ctrl (Cmd) + Del\" sa obsah týchto riadkov vymaže.",
   "Blank line > Enable bullet context menu item": "Povolenie prázdneho riadka > položiek ponuky s odrážkami",
   "Blank line feature": "Možnosť pridávať riadky",
-  "Clear block feature > From the bullet menu item or command pallet menu item": "Vymazanie riadkov > z ponuky s odrážkami alebo položky palety príkazov",
-  "Clear blocks (selected)": "Vymazanie vybratých riadkov",
-  "Clear the block": "Vymazať tento riadok",
-  "Cleared the blocks": "Vymazanie zadaného riadka",
   "Enable": "Aktivovať",
   "No blocks selected": "Nie je vybratý žiadny riadok",
   "Number of inserting blank lines (from the page menu)": "Počet prázdnych riadkov, ktoré sa majú vložiť z ponuky stránok",
