@@ -16,21 +16,21 @@ Release Date: 2023/08/07
 
 Inserting Rows
   - Execute commands with shortcut keys from the currently edited line.
-    1. Create the previous line
+    1. Create the previous line ⤴️
        - Press `Shift` `Alt` `Enter` simultaneously
-    1. Create the next line
-       - Press `Alt` `Enter` simultaneously
-    2. Add multiple lines (previous)
+    1. Create new lines at the previous line ⤴️
        - Press `Ctrl` (or `Cmd`) `Pg-Up` simultaneously
-    3. Add multiple lines (below)
+    1. Create the next line ⤵️
+       - Press `Alt` `Enter` simultaneously
+    1. Create new lines at the next line ⤵️
        - Press `Ctrl` (or `Cmd`) `Pg-Down` simultaneously
 
-  - Adding rows to a page
+  - At top or bottom of the page
     - Right-click on the page name to access a menu. Select one of the following options.
        > The number of rows can be configured in the plugin settings.
-    1. Menu Item `🦢 New Lines to Top ⏫`
+    1. Menu Item `🦢 Create new lines at top of the page ⏫`
         > Add the specified number of lines to the top of the page.
-    2. Menu Item `🦢 New Lines to Bottom ⏬`
+    2. Menu Item `🦢 Create new lines at bottom of the page ⏬`
         > Add the specified number of lines to the bottom of the page.
 
 ---
@@ -41,17 +41,14 @@ Install from the Logseq Marketplace
 
    - Click [`---`] in the top toolbar, open [`Plugins`]. Choose [`Marketplace`] and search for `Line`, then select and install from the search results.
 
-### Plugin Configuration
+### Plugin Settings
 
-- Select the number of lines to insert above
+- Number of inserting lines (previous)
   - `1`-`20`
-- Select the number of lines to insert below
+- Number of inserting lines (next)
   - `1`-`20`
-- Select the number of lines to insert from the page menu
+- Number of inserting lines (from the page menu)
   - `1`-`30`
-- Enable bullet context menu: Toggle
-  - `true`
-  - Default: `false`
 
 ---
 
