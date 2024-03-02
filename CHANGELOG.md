@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.6.1...v1.7.0) (2024-3-2)
+
+
+### Features
+
+* **Add:** Provide `Create the previous line` shortcut [#9](https://github.com/YU000jp/logseq-plugin-blank-line/issues/9) ([7004614](https://github.com/YU000jp/logseq-plugin-blank-line/commit/7004614f657be25abde8dcb508b8b8437248ed58))
+
 ## [1.6.1](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.6.0...v1.6.1) (2024-2-10)
 
 
