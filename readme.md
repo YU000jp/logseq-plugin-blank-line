@@ -16,12 +16,14 @@ Release Date: 2023/08/07
 
 Inserting Rows
   - Execute commands with shortcut keys from the currently edited line.
+    1. Create the previous line
+       - Press `Shift` `Alt` `Enter` simultaneously
     1. Create the next line
-       - Press `Alt` and `Enter` simultaneously
+       - Press `Alt` `Enter` simultaneously
     2. Add multiple lines (previous)
-       - Press `Ctrl` or `Cmd` and `Pg-Up` simultaneously
+       - Press `Ctrl` (or `Cmd`) `Pg-Up` simultaneously
     3. Add multiple lines (below)
-       - Press `Ctrl` or `Cmd` and `Pg-Down` simultaneously
+       - Press `Ctrl` (or `Cmd`) `Pg-Down` simultaneously
 
   - Adding rows to a page
     - Right-click on the page name to access a menu. Select one of the following options.
