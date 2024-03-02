@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.7.0...v1.8.0) (2024-3-2)
+
+
+### Features
+
+* Modify item name ([bb1c194](https://github.com/YU000jp/logseq-plugin-blank-line/commit/bb1c194edf4c89d10f57010a36345d57f8377805))
+
 # [1.7.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.6.1...v1.7.0) (2024-3-2)
 
 
