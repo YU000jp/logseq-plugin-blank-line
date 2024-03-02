@@ -3,7 +3,7 @@
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md)
 
 1. 選択した行または、ページ内の先頭やその最後に、行をまとめて挿入します。
-   > ブロック参照(行の引用)や埋め込みがあって、次の行に移動しにくい場合などに役立ちます。
+   > ブロック参照(行の引用)や埋め込みが存在していて、次の行に移動しにくい場合などに役立ちます。
 
 [![最新リリースバージョン](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
 [![ライセンス](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE)
@@ -16,20 +16,22 @@
 
 行の追加
   - 編集中の行から、ショートカットキーでコマンドを実行します。
-    1. 次の行を作成する
-       - `Alt` と `Enter` 同時押し
+    1. 前に一行挿入する
+      - `Shift` `Alt` `Enter` 同時押し
+    1. 次の行を挿入する
+       - `Alt` `Enter` 同時押し
     1. 複数の行を追加する（前）
-       - `Ctrl` または `Cmd` と `Pg-Up` 同時押し
+       - `Ctrl` (もしくは`Cmd`) `Pg-Up` 同時押し
     1. 複数の行を追加する（次）
-       - `Ctrl` または `Cmd` と `Pg-Down` 同時押し
+       - `Ctrl` (もしくは`Cmd`) `Pg-Down` 同時押し
 
   - ページにまとめて、行を追加する
     - ページ名を右クリックすると、メニューが出ます。次のいずれかの項目を選択してください。
-       > 行の数は、プラグイン設定にその項目が存在します。
+       > プラグイン設定で、挿入する数(行数)を指定してください。
     1. メニュー項目 `🦢 先頭に、空白を追加 ⏫`
-        > ページの先頭に、指定された数だけ行を追加します。
+        > ページの先頭に、指定した数の行を追加します
     1. メニュー項目 `🦢 最後に、空白を追加 ⏬`
-        > ページの最後に、指定された数だけ行を追加します。
+        > ページの最後に、指定した数の行を追加します
 
 ---
 
