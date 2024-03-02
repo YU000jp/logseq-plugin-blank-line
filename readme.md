@@ -14,24 +14,23 @@ Release Date: 2023/08/07
 
 ### Shortcut List
 
-Inserting Rows
-  - Execute commands with shortcut keys from the currently edited line.
-    1. Create the previous line ⤴️
-       - Press `Shift` `Alt` `Enter` simultaneously
-    1. Create new lines at the previous line ⤴️
-       - Press `Ctrl` (or `Cmd`) `Pg-Up` simultaneously
-    1. Create the next line ⤵️
-       - Press `Alt` `Enter` simultaneously
-    1. Create new lines at the next line ⤵️
-       - Press `Ctrl` (or `Cmd`) `Pg-Down` simultaneously
+- Execute commands with shortcut keys from the currently edited line.
+   1. Create the previous line ⤴️
+      - Press `Shift` `Alt` `Enter` simultaneously
+   1. Create new lines at the previous line ⤴️
+      - Press `Ctrl` (or `Cmd`) `Pg-Up` simultaneously
+   1. Create the next line ⤵️
+      - Press `Alt` `Enter` simultaneously
+   1. Create new lines at the next line ⤵️
+      - Press `Ctrl` (or `Cmd`) `Pg-Down` simultaneously
 
-  - At top or bottom of the page
-    - Right-click on the page name to access a menu. Select one of the following options.
-       > The number of rows can be configured in the plugin settings.
-    1. Menu Item `🦢 Create new lines at top of the page ⏫`
-        > Add the specified number of lines to the top of the page.
-    2. Menu Item `🦢 Create new lines at bottom of the page ⏬`
-        > Add the specified number of lines to the bottom of the page.
+- At top or bottom of the page
+   - Right-click on the page name to access a menu. Select one of the following options.
+      > The number of rows can be configured in the plugin settings.
+   1. Menu Item `🦢 Create new lines at top of the page ⏫`
+      > Add the specified number of lines to the top of the page.
+   2. Menu Item `🦢 Create new lines at bottom of the page ⏬`
+      > Add the specified number of lines to the bottom of the page.
 
 ---
 
