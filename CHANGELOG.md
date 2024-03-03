@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.8.0...v1.9.0) (2024-3-3)
+
+
+### Features
+
+* **Add:** New Shortcut Command "Clear block contents" (`Shift Delete`) ([d0fe579](https://github.com/YU000jp/logseq-plugin-blank-line/commit/d0fe57972dab04e4738b2eca7aec780aafd732e1))
+
 # [1.8.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.7.0...v1.8.0) (2024-3-2)
 
 
