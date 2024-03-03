@@ -14,7 +14,7 @@ Release Date: 2023/08/07
 
 ### Shortcut List
 
-- Execute commands with shortcut keys from the currently edited line.
+- Execute the command with a shortcut key from the currently edited line.
    1. Create the previous line ⤴️
       - Press `Shift` `Alt` `Enter` simultaneously
    1. Create new lines at the previous line ⤴️
@@ -31,6 +31,11 @@ Release Date: 2023/08/07
       > Add the specified number of lines to the top of the page.
    2. Menu Item `🦢 Create new lines at bottom of the page ⏬`
       > Add the specified number of lines to the bottom of the page.
+
+- Select one or more lines and execute the command with a shortcut key.
+   > To select multiple lines, press the `Esc` key on the block you are editing to switch to the block selection state, and select the blocks by clicking with `Ctrl` or using `Shift ↑ ↓`.
+   1. Clear selected blocks
+      > The standard Logseq deletion command deletes the entire block, but instead it clears only the contents.
 
 ---
 

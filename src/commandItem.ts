@@ -84,6 +84,20 @@ export const commandItem = () => {
       if (numberBlankLine - 1 >= 1)
         createBlankLine(newBlock.uuid, numberBlankLine - 1)
     })
+
+  // ブロックのクリア
+  logseq.App.registerCommandPalette({
+    key: "clearBlocks",
+    label: "🦢 " + t("Clear block contents"),
+    keybinding: { binding: 'shift+delete' }
+  }, async () => {
+    const blocks = await logseq.Editor.getSelectedBlocks() as BlockEntity[] | null
+    if (!blocks) return
+    for (let block of blocks)
+      logseq.Editor.updateBlock(block.uuid, "")
+    logseq.UI.showMsg("🦢 " + t("Cleared block contents"), "info")
+  })
+
 }
 
 

@@ -9,5 +9,7 @@
   "Number of inserting lines (from the page menu)": "삽입할 행 수(페이지 메뉴에서)",
   "Number of inserting lines (next)": "삽입할 행 수(다음)",
   "Number of inserting lines (previous)": "삽입할 행 수(이전)",
+  "Clear block contents"  :  "블록 내용 지우기",
+  "Cleared block contents": "블록 내용 지우기",
   "Please select a block.": "블록을 선택하십시오."
 }
