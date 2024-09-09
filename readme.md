@@ -3,6 +3,10 @@
 1. Insert Rows (blocks) at Selected Lines or the Beginning and End of a Page.
    > This is useful when it is difficult to move to the next line due to block references (line quotations) or embedding.
 
+> [!NOTE]
+This plugin works in Logseq db version.
+
+
 <div align="right">
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md) [![Latest Release Version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases) [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE) [![Download](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-blank-line/total.svg)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
