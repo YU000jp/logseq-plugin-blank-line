@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.9.0...v1.10.0) (2025-05-02)
+
+
+### Features
+
+* Updated README and command names and translations. ([50a5208](https://github.com/YU000jp/logseq-plugin-blank-line/commit/50a5208957cc1455bf16b111644d12e441e3888e))
+
 # [1.9.0](https://github.com/YU000jp/logseq-plugin-blank-line/compare/v1.8.0...v1.9.0) (2024-3-3)
 
 
