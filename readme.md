@@ -20,6 +20,9 @@ This plugin provides quick shortcuts to insert new lines in Logseq, solving the 
 3. Go to `Plugins` > `Marketplace`
 4. Search for `Line` and install
 
+> [!TIP]
+> Shortcut keys can be customized in [Settings] > [KeyMap] > [Plugins].
+
 ## Features
 
 ### 🎯 While Editing
