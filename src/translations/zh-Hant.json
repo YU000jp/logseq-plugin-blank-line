@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "清除區塊內容",
-  "Cleared block contents": "清除區塊內容",
-  "Create new lines at bottom of the page ⏬": "在頁面末尾⏬插入多行",
-  "Create new lines at the next line ⤵️": "然後插入多行 ⤵️",
-  "Create new lines at the previous line ⤴️": "在前面⤴️插入多行",
-  "Create new lines at top of the page ⏫": "在頁面頂部⏫插入多行",
-  "Create the next line ⤵️": "插入⤵️以下行",
-  "Create the previous line ⤴️": "在前面插入⤴️一行",
-  "Created New Line": "已創建一個新行",
-  "Number of inserting lines (from the page menu)": "要插入的行數（從頁面選單）",
-  "Number of inserting lines (next)": "要插入的行數（下一頁）",
-  "Number of inserting lines (previous)": "要插入的行數（上一頁）",
-  "Please select a block.": "請選擇一個區塊。"
+  "Add Previous Line": "添加上一行",
+  "Add Multiple Previous Lines": "添加多行",
+  "Add Next Line": "添加下一行",
+  "Add Multiple Next Lines": "添加多行",
+  "Create new lines at top of the page ⏫": "在頁面⏫頂部創建新行",
+  "Create new lines at bottom of the page ⏬": "在頁面⏬底部創建新行",
+  "Clear contents of selected blocks": "清除選取的內容",
+  "Cleared block contents": "清除的塊內容",
+  "Created New Line": "創建新線",
+  "Please select a block.": "請選擇一個區塊。",
+  "Number of inserting lines (previous)": "插入列數 （上一個）",
+  "Number of inserting lines (next)": "插入列數 （next）",
+  "Number of inserting lines (from the page menu)": "插入列數 （從頁面選單）"
 }

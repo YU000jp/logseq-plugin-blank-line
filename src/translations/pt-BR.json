@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Conteúdo do bloco apagado",
-  "Cleared block contents": "Conteúdo do bloco apagado",
-  "Create new lines at bottom of the page ⏬": "Inserir várias linhas no final da ⏬ página",
-  "Create new lines at the next line ⤵️": "Em seguida, insira várias linhas ⤵️",
-  "Create new lines at the previous line ⤴️": "Inserir várias linhas ⤴️ antes",
-  "Create new lines at top of the page ⏫": "Inserir várias linhas na parte superior da ⏫ página",
-  "Create the next line ⤵️": "Insira a ⤵️ seguinte linha",
-  "Create the previous line ⤴️": "Inserir ⤴️ uma linha antes",
-  "Created New Line": "Uma nova linha foi criada",
-  "Number of inserting lines (from the page menu)": "Número de linhas a serem inseridas (no menu de página)",
-  "Number of inserting lines (next)": "Número de linhas a inserir (seguinte)",
-  "Number of inserting lines (previous)": "Número de linhas a inserir (anterior)",
-  "Please select a block.": "Selecione um bloco."
+  "Add Previous Line": "Adicionar linha anterior",
+  "Add Multiple Previous Lines": "Adicionar várias linhas anteriores",
+  "Add Next Line": "Adicionar próxima linha",
+  "Add Multiple Next Lines": "Adicionar várias linhas seguintes",
+  "Create new lines at top of the page ⏫": "Criar novas linhas na parte superior da página ⏫",
+  "Create new lines at bottom of the page ⏬": "Criar novas linhas na parte inferior da página ⏬",
+  "Clear contents of selected blocks": "Limpar o conteúdo dos blocos selecionados",
+  "Cleared block contents": "Conteúdo do bloco limpo",
+  "Created New Line": "Criou uma nova linha",
+  "Please select a block.": "Selecione um bloco.",
+  "Number of inserting lines (previous)": "Número de linhas de inserção (anterior)",
+  "Number of inserting lines (next)": "Número de linhas de inserção (próximo)",
+  "Number of inserting lines (from the page menu)": "Número de linhas de inserção (no Menu de páginas)"
 }

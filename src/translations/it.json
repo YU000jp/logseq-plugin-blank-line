@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Cancella contenuto del blocco",
+  "Add Previous Line": "Aggiungi riga precedente",
+  "Add Multiple Previous Lines": "Aggiungi più righe precedenti",
+  "Add Next Line": "Aggiungi riga successiva",
+  "Add Multiple Next Lines": "Aggiungi più righe successive",
+  "Create new lines at top of the page ⏫": "Crea nuove righe nella parte superiore della pagina ⏫",
+  "Create new lines at bottom of the page ⏬": "Crea nuove righe in fondo alla pagina ⏬",
+  "Clear contents of selected blocks": "Cancella il contenuto dei blocchi selezionati",
   "Cleared block contents": "Contenuto del blocco cancellato",
-  "Create new lines at bottom of the page ⏬": "Inserire più righe alla fine della ⏬ pagina",
-  "Create new lines at the next line ⤵️": "Quindi inserire più righe ⤵️",
-  "Create new lines at the previous line ⤴️": "Inserire più righe ⤴️ prima",
-  "Create new lines at top of the page ⏫": "Inserire più righe nella parte superiore della ⏫ pagina",
-  "Create the next line ⤵️": "Inserire la ⤵️ riga seguente",
-  "Create the previous line ⤴️": "Inserire ⤴️ una riga prima",
-  "Created New Line": "È stata creata una nuova riga",
-  "Number of inserting lines (from the page menu)": "Numero di righe da inserire (dal menu Pagina)",
-  "Number of inserting lines (next)": "Numero di righe da inserire (successive)",
-  "Number of inserting lines (previous)": "Numero di righe da inserire (precedente)",
-  "Please select a block.": "Seleziona un blocco."
+  "Created New Line": "Creata nuova riga",
+  "Please select a block.": "Seleziona un blocco.",
+  "Number of inserting lines (previous)": "Numero di righe di inserimento (precedente)",
+  "Number of inserting lines (next)": "Numero di righe di inserimento (successivo)",
+  "Number of inserting lines (from the page menu)": "Numero di righe di inserimento (dal menu pagina)"
 }

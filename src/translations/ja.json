@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "ブロックの内容をクリア",
-  "Cleared block contents": "ブロックの内容がクリアされました",
-  "Create new lines at bottom of the page ⏬": "ページの最後尾に、複数の行を挿入する ⏬",
-  "Create new lines at the next line ⤵️": "次に複数の行を挿入する ⤵️",
-  "Create new lines at the previous line ⤴️": "前に複数の行を挿入する ⤴️",
-  "Create new lines at top of the page ⏫": "ページの先頭に、複数の行を挿入する ⏫",
-  "Create the next line ⤵️": "次の行を挿入する ⤵️",
-  "Create the previous line ⤴️": "前に一行挿入する ⤴️",
-  "Created New Line": "新しい行が作成されました",
-  "Number of inserting lines (from the page menu)": "挿入する行の数 (ページ メニューから)",
-  "Number of inserting lines (next)": "挿入する行の数 (次)",
-  "Number of inserting lines (previous)": "挿入する行の数 (前)",
-  "Please select a block.": "ブロックを選択してください。"
+  "Add Previous Line": "前の行を追加",
+  "Add Multiple Previous Lines": "前の行を複数追加",
+  "Add Next Line": "次の行を追加",
+  "Add Multiple Next Lines": "複数の次の行を追加",
+  "Create new lines at top of the page ⏫": "ページ⏫の上部に新しい行を作成します",
+  "Create new lines at bottom of the page ⏬": "ページ⏬の下部に新しい行を作成します",
+  "Clear contents of selected blocks": "選択したブロックの内容のクリア",
+  "Cleared block contents": "クリアされたブロックの内容",
+  "Created New Line": "新規行を作成",
+  "Please select a block.": "ブロックを選択してください。",
+  "Number of inserting lines (previous)": "挿入行数 (前)",
+  "Number of inserting lines (next)": "挿入行数 (次)",
+  "Number of inserting lines (from the page menu)": "挿入行数(ページメニューから)"
 }

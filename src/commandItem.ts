@@ -6,7 +6,7 @@ export const commandItem = () => {
   //前の行に追加する
   logseq.App.registerCommandPalette({
     key: "createBlankPrevious1LineOnly",
-    label: "🦢 " + t("Create the previous line ⤴️"),
+    label: "🦢 " + t("Add Previous Line") + " ⤴️",
     keybinding: { binding: 'shift+alt+enter' }
   }, async ({ uuid }) => {
     if (uuid) {
@@ -17,7 +17,7 @@ export const commandItem = () => {
   })
   logseq.App.registerCommandPalette({
     key: "createBlankLinesPrevious",
-    label: "🦢 " + t("Create new lines at the previous line ⤴️"),
+    label: "🦢 " + t("Add Multiple Previous Lines") + " ⤴️",
     keybinding: { binding: 'mod+pg-up' }
   }, async ({ uuid }) => {
     if (!logseq.settings?.previousLineBlank
@@ -34,7 +34,7 @@ export const commandItem = () => {
   //次の行に追加する
   logseq.App.registerCommandPalette({
     key: "createBlankNext1LineOnly",
-    label: "🦢 " + t("Create the next line ⤵️"),
+    label: "🦢 " + t("Add Next Line") + " ⤵️",
     keybinding: { binding: 'alt+enter' }
   }, async ({ uuid }) => {
     if (uuid)
@@ -44,7 +44,7 @@ export const commandItem = () => {
   })
   logseq.App.registerCommandPalette({
     key: "createBlankLinesNext",
-    label: "🦢 " + t("Create new lines at the next line ⤵️"),
+    label: "🦢 " + t("Add Multiple Next Lines") + " ⤵️",
     keybinding: { binding: 'mod+pg-down' }
   }, async ({ uuid }) => {
     if (!logseq.settings?.nextLineBlank) return
@@ -88,7 +88,7 @@ export const commandItem = () => {
   // ブロックのクリア
   logseq.App.registerCommandPalette({
     key: "clearBlocks",
-    label: "🦢 " + t("Clear block contents"),
+    label: "🦢 " + t("Clear contents of selected blocks") + " ✨",
     keybinding: { binding: 'shift+delete' }
   }, async () => {
     const blocks = await logseq.Editor.getSelectedBlocks() as BlockEntity[] | null

@@ -1,61 +1,48 @@
 # Logseq Plugin: New Line Shortcut 🦢
 
-1. Insert Rows (blocks) at Selected Lines or the Beginning and End of a Page.
-   > This is useful when it is difficult to move to the next line due to block references (line quotations) or embedding.
-
-> [!NOTE]
-This plugin works in Logseq db version.
-
-
 <div align="right">
 
 [English](https://github.com/YU000jp/logseq-plugin-blank-line) | [日本語](https://github.com/YU000jp/logseq-plugin-blank-line/blob/main/readme.ja.md) [![Latest Release Version](https://img.shields.io/github/v/release/YU000jp/logseq-plugin-blank-line)](https://github.com/YU000jp/logseq-plugin-blank-line/releases) [![License](https://img.shields.io/github/license/YU000jp/logseq-plugin-blank-line?color=blue)](https://github.com/YU000jp/logseq-plugin-blank-line/LICENSE) [![Download](https://img.shields.io/github/downloads/YU000jp/logseq-plugin-blank-line/total.svg)](https://github.com/YU000jp/logseq-plugin-blank-line/releases)
-Release Date: 2023/08/07 <a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+Release Date: 20230807 <a href="https://www.buymeacoffee.com/yu000japan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=yu000japan&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
 </div>
 
 ## Overview
 
-### Shortcut List
+This plugin provides quick shortcuts to insert new lines in Logseq, solving the difficulty of adding new lines when working with block references or embeds.
 
-- Execute the command with a shortcut key from the currently edited line.
-   1. Create the previous line ⤴️
-      - Press `Shift` `Alt` `Enter` simultaneously
-   1. Create new lines at the previous line ⤴️
-      - Press `Ctrl` (or `Cmd`) `Pg-Up` simultaneously
-   1. Create the next line ⤵️
-      - Press `Alt` `Enter` simultaneously
-   1. Create new lines at the next line ⤵️
-      - Press `Ctrl` (or `Cmd`) `Pg-Down` simultaneously
+> [!NOTE]
+> This plugin works in Logseq db version.
 
-- At top or bottom of the page
-   - Right-click on the page name to access a menu. Select one of the following options.
-      > The number of rows can be configured in the plugin settings.
-   1. Menu Item `🦢 Create new lines at top of the page ⏫`
-      > Add the specified number of lines to the top of the page.
-   2. Menu Item `🦢 Create new lines at bottom of the page ⏬`
-      > Add the specified number of lines to the bottom of the page.
+## Install
 
-- Select one or more lines and execute the command with a shortcut key.
-   > To select multiple lines, press the `Esc` key on the block you are editing to switch to the block selection state, and select the blocks by clicking with `Ctrl` or using `Shift ↑ ↓`.
-   1. Clear selected blocks
-      > The standard Logseq deletion command deletes the entire block, but instead it clears only the contents.
+1. Open Logseq
+2. Click `---` in the top toolbar
+3. Go to `Plugins` > `Marketplace`
+4. Search for `Line` and install
 
----
+## Features
 
-## Getting Started
+### 🎯 While Editing
+- **Add Previous Line** (`Shift` + `Alt` + `Enter`) ⤴️
+- **Add Next Line** (`Alt` + `Enter`) ⤵️
+- **Add Multiple Previous Lines** (`Ctrl/Cmd` + `Pg-Up`) ⤴️
+- **Add Multiple Next Lines** (`Ctrl/Cmd` + `Pg-Down`) ⤵️
 
-Install from the Logseq Marketplace
+### 📑 Page Operations
+Right-click on page name to:
+- Add multiple lines at the top ⏫
+- Add multiple lines at the bottom ⏬
 
-   - Click [`---`] in the top toolbar, open [`Plugins`]. Choose [`Marketplace`] and search for `Line`, then select and install from the search results.
+### ✨ Block Operations
+Select one or more blocks (Press `Esc` first, then use `Ctrl+Click` or `Shift+↑↓`):
+- **Clear contents of selected blocks (preserves block structure)** (`Shift` + `Delete`)
 
-### Plugin Settings
+## Configuration
 
-- Number of inserting lines (previous)
-  - `1`-`20`
-- Number of inserting lines (next)
-  - `1`-`20`
-- Number of inserting lines (from the page menu)
-  - `1`-`30`
+Set your preferences in Plugin Settings:
+- Previous lines: `1-20` lines
+- Next lines: `1-20` lines
+- Page menu lines: `1-30` lines
 
 ---
 

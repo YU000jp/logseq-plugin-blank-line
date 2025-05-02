@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Inhoud van blok wissen",
-  "Cleared block contents": "Inhoud van blok gewist",
-  "Create new lines at bottom of the page ⏬": "Meerdere regels invoegen aan het einde van de ⏬ pagina",
-  "Create new lines at the next line ⤵️": "Voeg vervolgens meerdere rijen ⤵️ in",
-  "Create new lines at the previous line ⤴️": "Meerdere rijen ⤴️ invoegen voor",
-  "Create new lines at top of the page ⏫": "Meerdere regels boven aan de ⏫ pagina invoegen",
-  "Create the next line ⤵️": "De volgende regel invoegen ⤵️",
-  "Create the previous line ⤴️": "Een regel invoegen ⤴️ voor",
-  "Created New Line": "Er is een nieuwe rij aangemaakt",
-  "Number of inserting lines (from the page menu)": "Aantal in te voegen rijen (vanuit het paginamenu)",
-  "Number of inserting lines (next)": "Aantal in te voegen rijen (volgende)",
-  "Number of inserting lines (previous)": "Aantal in te voegen rijen (vorige)",
-  "Please select a block.": "Selecteer een blok."
+  "Add Previous Line": "Vorige regel toevoegen",
+  "Add Multiple Previous Lines": "Meerdere vorige regels toevoegen",
+  "Add Next Line": "Volgende regel toevoegen",
+  "Add Multiple Next Lines": "Meerdere volgende regels toevoegen",
+  "Create new lines at top of the page ⏫": "Maak nieuwe regels boven aan de pagina ⏫",
+  "Create new lines at bottom of the page ⏬": "Maak nieuwe regels onder aan de pagina ⏬",
+  "Clear contents of selected blocks": "Inhoud van geselecteerde blokken wissen",
+  "Cleared block contents": "Gewiste blokinhoud",
+  "Created New Line": "Nieuwe lijn gemaakt",
+  "Please select a block.": "Selecteer een blok.",
+  "Number of inserting lines (previous)": "Aantal invoegregels (vorige)",
+  "Number of inserting lines (next)": "Aantal invoegregels (volgende)",
+  "Number of inserting lines (from the page menu)": "Aantal invoegregels (vanuit het paginamenu)"
 }

@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Очистити вміст блоку",
-  "Cleared block contents": "Очищено вміст блоку",
-  "Create new lines at bottom of the page ⏬": "Вставте кілька рядків в кінці ⏬ сторінки",
-  "Create new lines at the next line ⤵️": "Потім вставте кілька рядків ⤵️",
-  "Create new lines at the previous line ⤴️": "Вставлення кількох рядків ⤴️ перед",
-  "Create new lines at top of the page ⏫": "Вставте кілька рядків у верхній частині ⏫ сторінки",
-  "Create the next line ⤵️": "Вставте ⤵️ наступний рядок",
-  "Create the previous line ⤴️": "Вставка ⤴️ рядка перед",
-  "Created New Line": "Створено новий ряд",
-  "Number of inserting lines (from the page menu)": "Кількість рядків для вставки (з меню сторінок)",
-  "Number of inserting lines (next)": "Кількість рядків для вставки (наступний)",
-  "Number of inserting lines (previous)": "Кількість рядків для вставки (попередній)",
-  "Please select a block.": "Будь ласка, виберіть блок."
+  "Add Previous Line": "Додати попередній рядок",
+  "Add Multiple Previous Lines": "Додавання кількох попередніх рядків",
+  "Add Next Line": "Додати наступний рядок",
+  "Add Multiple Next Lines": "Додайте кілька наступних рядків",
+  "Create new lines at top of the page ⏫": "Створення нових рядків у верхній частині сторінки ⏫",
+  "Create new lines at bottom of the page ⏬": "Створення нових рядків у нижній частині сторінки ⏬",
+  "Clear contents of selected blocks": "Очистити вміст вибраних блоків",
+  "Cleared block contents": "Очищений вміст блоку",
+  "Created New Line": "Створено нову лінію",
+  "Please select a block.": "Будь ласка, виберіть блок.",
+  "Number of inserting lines (previous)": "Кількість рядків вставки (попередній)",
+  "Number of inserting lines (next)": "Кількість вставних ліній (наступні)",
+  "Number of inserting lines (from the page menu)": "Кількість рядків для вставки (з меню сторінок)"
 }

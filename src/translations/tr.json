@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Blok içeriğini temizle",
-  "Cleared block contents": "Blok İçeriği Temizlendi",
-  "Create new lines at bottom of the page ⏬": "Sayfanın sonuna ⏬ birden çok satır ekleme",
-  "Create new lines at the next line ⤵️": "Ardından birden çok satır ⤵️ ekleyin",
-  "Create new lines at the previous line ⤴️": "Önce birden çok satır ⤴️ ekleme",
-  "Create new lines at top of the page ⏫": "Sayfanın en üstüne ⏫ birden çok satır ekleme",
-  "Create the next line ⤵️": "Aşağıdaki satırı ekleyin ⤵️",
-  "Create the previous line ⤴️": "Önüne satır ekleme ⤴️",
-  "Created New Line": "Yeni bir satır oluşturuldu",
-  "Number of inserting lines (from the page menu)": "Eklenecek satır sayısı (sayfa menüsünden)",
-  "Number of inserting lines (next)": "Eklenecek satır sayısı (sonraki)",
-  "Number of inserting lines (previous)": "Eklenecek satır sayısı (önceki)",
-  "Please select a block.": "Lütfen bir blok seçin."
+  "Add Previous Line": "Önceki satırı ekle",
+  "Add Multiple Previous Lines": "Birden çok önceki satır ekleme",
+  "Add Next Line": "Sonraki Satırı Ekle",
+  "Add Multiple Next Lines": "Birden çok sonraki satır ekleme",
+  "Create new lines at top of the page ⏫": "Sayfanın ⏫ üst kısmında yeni satırlar oluşturma",
+  "Create new lines at bottom of the page ⏬": "Sayfanın ⏬ altında yeni satırlar oluşturun",
+  "Clear contents of selected blocks": "Seçilen blokların içeriğini temizle",
+  "Cleared block contents": "Temizlenen blok içeriği",
+  "Created New Line": "Yeni Satır Oluşturuldu",
+  "Please select a block.": "Lütfen bir blok seçin.",
+  "Number of inserting lines (previous)": "Eklenen satır sayısı (önceki)",
+  "Number of inserting lines (next)": "Eklenen satır sayısı (sonraki)",
+  "Number of inserting lines (from the page menu)": "Eklenen satır sayısı (sayfa menüsünden)"
 }

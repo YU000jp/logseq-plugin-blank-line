@@ -1,15 +1,15 @@
 {
-  "Create new lines at bottom of the page ⏬": "페이지 끝에 ⏬ 여러 줄 삽입",
-  "Create new lines at the next line ⤵️": "그런 다음 여러 행⤵️을 삽입하십시오.",
-  "Create new lines at the previous line ⤴️": "앞에 여러 행 ⤴️ 삽입",
-  "Create new lines at top of the page ⏫": "페이지 맨 위에 ⏫ 여러 줄 삽입",
-  "Create the next line ⤵️": "다음 줄을 삽입합니다 ⤵️",
-  "Create the previous line ⤴️": "앞에 줄 삽입 ⤴️",
-  "Created New Line": "새 행이 생성되었습니다.",
-  "Number of inserting lines (from the page menu)": "삽입할 행 수(페이지 메뉴에서)",
-  "Number of inserting lines (next)": "삽입할 행 수(다음)",
-  "Number of inserting lines (previous)": "삽입할 행 수(이전)",
-  "Clear block contents"  :  "블록 내용 지우기",
-  "Cleared block contents": "블록 내용 지우기",
-  "Please select a block.": "블록을 선택하십시오."
+  "Add Previous Line": "이전 줄 추가",
+  "Add Multiple Previous Lines": "이전 줄을 여러 개 추가",
+  "Add Next Line": "다음 줄 추가",
+  "Add Multiple Next Lines": "여러 개의 다음 줄 추가",
+  "Create new lines at top of the page ⏫": "페이지 ⏫ 맨 위에 새 줄 만들기",
+  "Create new lines at bottom of the page ⏬": "페이지 ⏬ 아래쪽에 새 줄을 만듭니다.",
+  "Clear contents of selected blocks": "선택한 블록의 내용 지우기",
+  "Cleared block contents": "지워진 블록 내용",
+  "Created New Line": "새 줄을 만들었습니다.",
+  "Please select a block.": "블록을 선택하십시오.",
+  "Number of inserting lines (previous)": "삽입 줄 수(이전)",
+  "Number of inserting lines (next)": "삽입 줄 수(다음)",
+  "Number of inserting lines (from the page menu)": "Number of inserting lines (from the page menu) (삽입하는 줄의 수)"
 }

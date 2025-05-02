@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Tøm blokkinnhold",
-  "Cleared block contents": "Tømt blokkinnhold",
-  "Create new lines at bottom of the page ⏬": "Sette inn flere linjer nederst på ⏬ siden",
-  "Create new lines at the next line ⤵️": "Sett deretter inn flere rader ⤵️",
-  "Create new lines at the previous line ⤴️": "Sette inn flere rader ⤴️ før",
-  "Create new lines at top of the page ⏫": "Sette inn flere linjer øverst på ⏫ siden",
-  "Create the next line ⤵️": "Sett inn følgende ⤵️ linje",
-  "Create the previous line ⤴️": "Sette inn ⤴️ en linje før",
-  "Created New Line": "En ny rad er opprettet",
-  "Number of inserting lines (from the page menu)": "Antall rader som skal settes inn (fra sidemenyen)",
-  "Number of inserting lines (next)": "Antall rader som skal settes inn (neste)",
-  "Number of inserting lines (previous)": "Antall rader som skal settes inn (forrige)",
-  "Please select a block.": "Velg en blokk."
+  "Add Previous Line": "Legg til forrige linje",
+  "Add Multiple Previous Lines": "Legg til flere forrige linjer",
+  "Add Next Line": "Legg til neste linje",
+  "Add Multiple Next Lines": "Legg til flere neste linjer",
+  "Create new lines at top of the page ⏫": "Opprette nye linjer øverst på siden ⏫",
+  "Create new lines at bottom of the page ⏬": "Opprett nye linjer nederst på siden ⏬",
+  "Clear contents of selected blocks": "Fjern innholdet i valgte blokker",
+  "Cleared block contents": "Fjernet blokkinnhold",
+  "Created New Line": "Opprettet ny linje",
+  "Please select a block.": "Velg en blokk.",
+  "Number of inserting lines (previous)": "Antall innsettingslinjer (forrige)",
+  "Number of inserting lines (next)": "Antall innsettingslinjer (neste)",
+  "Number of inserting lines (from the page menu)": "Antall innsettingslinjer (fra sidemenyen)"
 }

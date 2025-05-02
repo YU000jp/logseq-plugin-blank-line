@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Hapus konten blok",
-  "Cleared block contents": "Konten blok telah dihapus",
-  "Create new lines at bottom of the page ⏬": "Menyisipkan beberapa baris di akhir ⏬ halaman",
-  "Create new lines at the next line ⤵️": "Lalu sisipkan beberapa baris ⤵️",
-  "Create new lines at the previous line ⤴️": "Sisipkan beberapa baris ⤴️ sebelumnya",
-  "Create new lines at top of the page ⏫": "Menyisipkan beberapa baris di bagian ⏫ atas halaman",
-  "Create the next line ⤵️": "Sisipkan baris ⤵️ berikut",
-  "Create the previous line ⤴️": "Menyisipkan ⤴️ garis sebelumnya",
-  "Created New Line": "Baris baru telah dibuat",
-  "Number of inserting lines (from the page menu)": "Jumlah baris yang akan disisipkan (dari menu halaman)",
-  "Number of inserting lines (next)": "Jumlah baris untuk disisipkan (berikutnya)",
-  "Number of inserting lines (previous)": "Jumlah baris untuk disisipkan (sebelumnya)",
-  "Please select a block.": "Silakan pilih blok."
+  "Add Previous Line": "Tambahkan Baris Sebelumnya",
+  "Add Multiple Previous Lines": "Tambahkan Beberapa Baris Sebelumnya",
+  "Add Next Line": "Tambahkan Baris Berikutnya",
+  "Add Multiple Next Lines": "Tambahkan Beberapa Baris Berikutnya",
+  "Create new lines at top of the page ⏫": "Membuat baris baru di bagian atas halaman ⏫",
+  "Create new lines at bottom of the page ⏬": "Buat baris baru di bagian bawah halaman ⏬",
+  "Clear contents of selected blocks": "Hapus isi blok yang dipilih",
+  "Cleared block contents": "Konten blok yang dihapus",
+  "Created New Line": "Membuat Baris Baru",
+  "Please select a block.": "Silakan pilih blok.",
+  "Number of inserting lines (previous)": "Jumlah garis penyisipan (sebelumnya)",
+  "Number of inserting lines (next)": "Jumlah baris penyisipan (berikutnya)",
+  "Number of inserting lines (from the page menu)": "Jumlah baris yang disisipkan (dari menu halaman)"
 }

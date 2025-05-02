@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Blokinhoud uitvee",
-  "Cleared block contents": "Blokinhoud uitgevee",
-  "Create new lines at bottom of the page ⏬": "Voeg verskeie reëls aan die einde van die ⏬ bladsy in",
-  "Create new lines at the next line ⤵️": "Voeg dan verskeie rye in ⤵️",
-  "Create new lines at the previous line ⤴️": "Plaas verskeie rye ⤴️ voor",
-  "Create new lines at top of the page ⏫": "Voeg verskeie reëls bo-aan die ⏫ bladsy in",
-  "Create the next line ⤵️": "Voeg die ⤵️ volgende reël in",
-  "Create the previous line ⤴️": "Plaas ⤴️ 'n reël voor",
-  "Created New Line": "'n Nuwe ry is geskep",
-  "Number of inserting lines (from the page menu)": "Aantal rye om in te voeg (vanaf die bladsymenu)",
-  "Number of inserting lines (next)": "Aantal rye om in te voeg (volgende)",
-  "Number of inserting lines (previous)": "Aantal rye om in te voeg (vorige)",
-  "Please select a block.": "Kies asseblief 'n blok."
+  "Add Previous Line": "Voeg vorige reël by",
+  "Add Multiple Previous Lines": "Voeg verskeie vorige reëls by",
+  "Add Next Line": "Voeg volgende reël by",
+  "Add Multiple Next Lines": "Voeg verskeie volgende reëls by",
+  "Create new lines at top of the page ⏫": "Skep nuwe reëls bo-aan die bladsy ⏫",
+  "Create new lines at bottom of the page ⏬": "Skep nuwe reëls onderaan die bladsy ⏬",
+  "Clear contents of selected blocks": "Maak inhoud van geselekteerde blokke skoon",
+  "Cleared block contents": "Skoongemaakte blokinhoud",
+  "Created New Line": "Nuwe reël geskep",
+  "Please select a block.": "Kies asb. 'n blok.",
+  "Number of inserting lines (previous)": "Aantal invoegreëls (vorige)",
+  "Number of inserting lines (next)": "Aantal invoegreëls (volgende)",
+  "Number of inserting lines (from the page menu)": "Aantal invoegreëls (vanaf die bladsykieslys)"
 }

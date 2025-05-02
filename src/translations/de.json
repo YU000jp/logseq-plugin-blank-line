@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Blockinhalt löschen",
-  "Cleared block contents": "Blockinhalt gelöscht",
-  "Create new lines at bottom of the page ⏬": "Einfügen mehrerer Zeilen am Ende der ⏬ Seite",
-  "Create new lines at the next line ⤵️": "Fügen Sie dann mehrere Zeilen ⤵️ ein",
-  "Create new lines at the previous line ⤴️": "Einfügen mehrerer Zeilen ⤴️ vor",
-  "Create new lines at top of the page ⏫": "Einfügen mehrerer Zeilen am oberen Rand der ⏫ Seite",
-  "Create the next line ⤵️": "Fügen Sie die ⤵️ folgende Zeile ein:",
-  "Create the previous line ⤴️": "Einfügen ⤴️ einer Zeile vor",
-  "Created New Line": "Es wurde eine neue Zeile erstellt",
-  "Number of inserting lines (from the page menu)": "Anzahl der einzufügenden Zeilen (aus dem Seitenmenü)",
-  "Number of inserting lines (next)": "Anzahl der einzufügenden Zeilen (nächste)",
-  "Number of inserting lines (previous)": "Anzahl der einzufügenden Zeilen (vorherige)",
-  "Please select a block.": "Bitte wählen Sie einen Block aus."
+  "Add Previous Line": "Vorherige Zeile hinzufügen",
+  "Add Multiple Previous Lines": "Mehrere vorherige Zeilen hinzufügen",
+  "Add Next Line": "Nächste Zeile hinzufügen",
+  "Add Multiple Next Lines": "Fügen Sie mehrere nächste Zeilen hinzu",
+  "Create new lines at top of the page ⏫": "Neue Zeilen oben auf der Seite ⏫ erstellen",
+  "Create new lines at bottom of the page ⏬": "Erstellen Sie neue Zeilen am unteren Rand der Seite ⏬",
+  "Clear contents of selected blocks": "Löschen des Inhalts ausgewählter Blöcke",
+  "Cleared block contents": "Gelöschter Blockinhalt",
+  "Created New Line": "Neue Zeile erstellt",
+  "Please select a block.": "Bitte wählen Sie einen Block aus.",
+  "Number of inserting lines (previous)": "Anzahl der Kuvertierzeilen (vorherige)",
+  "Number of inserting lines (next)": "Anzahl der Einfügezeilen (nächste)",
+  "Number of inserting lines (from the page menu)": "Anzahl der Einfügezeilen (aus dem Seitenmenü)"
 }

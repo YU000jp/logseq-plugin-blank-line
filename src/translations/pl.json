@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Wyczyść zawartość bloku",
-  "Cleared block contents": "Wyczyść zawartość bloku",
-  "Create new lines at bottom of the page ⏬": "Wstaw wiele wierszy ⏬ na końcu strony",
-  "Create new lines at the next line ⤵️": "Następnie wstaw wiele wierszy ⤵️",
-  "Create new lines at the previous line ⤴️": "Wstaw wiele wierszy ⤴️ przed",
-  "Create new lines at top of the page ⏫": "Wstaw wiele wierszy u góry ⏫ strony",
-  "Create the next line ⤵️": "Wstaw ⤵️ następujący wiersz",
-  "Create the previous line ⤴️": "Wstaw ⤴️ wiersz przed",
-  "Created New Line": "Utworzono nowy wiersz",
-  "Number of inserting lines (from the page menu)": "Liczba wierszy do wstawienia (z menu strony)",
-  "Number of inserting lines (next)": "Liczba wierszy do wstawienia (następny)",
-  "Number of inserting lines (previous)": "Liczba wierszy do wstawienia (poprzedni)",
-  "Please select a block.": "Wybierz blok."
+  "Add Previous Line": "Dodaj poprzedni wiersz",
+  "Add Multiple Previous Lines": "Dodawanie wielu poprzednich wierszy",
+  "Add Next Line": "Dodaj następny wiersz",
+  "Add Multiple Next Lines": "Dodawanie wielu następnych wierszy",
+  "Create new lines at top of the page ⏫": "Utwórz nowe wiersze u góry strony ⏫",
+  "Create new lines at bottom of the page ⏬": "Utwórz nowe wiersze u dołu strony ⏬",
+  "Clear contents of selected blocks": "Wyczyść zawartość wybranych bloków",
+  "Cleared block contents": "Wyczyszczona zawartość bloku",
+  "Created New Line": "Utworzono nową linię",
+  "Please select a block.": "Wybierz blok.",
+  "Number of inserting lines (previous)": "Liczba wstawianych wierszy (poprzednia)",
+  "Number of inserting lines (next)": "Liczba wstawianych wierszy (następny)",
+  "Number of inserting lines (from the page menu)": "Liczba wstawianych wierszy (z menu strony)"
 }

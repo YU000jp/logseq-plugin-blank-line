@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "清除区块内容",
-  "Cleared block contents": "已清除区块内容",
-  "Create new lines at bottom of the page ⏬": "在页面末尾⏬插入多行",
-  "Create new lines at the next line ⤵️": "然后插入多行 ⤵️",
-  "Create new lines at the previous line ⤴️": "在前面⤴️插入多行",
-  "Create new lines at top of the page ⏫": "在页面顶部⏫插入多行",
-  "Create the next line ⤵️": "插入⤵️以下行",
-  "Create the previous line ⤴️": "在前面插入⤴️一行",
-  "Created New Line": "已创建一个新行",
-  "Number of inserting lines (from the page menu)": "要插入的行数（从页面菜单）",
-  "Number of inserting lines (next)": "要插入的行数（下一页）",
-  "Number of inserting lines (previous)": "要插入的行数（上一页）",
-  "Please select a block.": "请选择一个区块。"
+  "Add Previous Line": "添加上一行",
+  "Add Multiple Previous Lines": "添加多行",
+  "Add Next Line": "添加下一行",
+  "Add Multiple Next Lines": "添加多行",
+  "Create new lines at top of the page ⏫": "在页面⏫顶部创建新行",
+  "Create new lines at bottom of the page ⏬": "在页面⏬底部创建新行",
+  "Clear contents of selected blocks": "清除所选块的内容",
+  "Cleared block contents": "清除的块内容",
+  "Created New Line": "创建新线",
+  "Please select a block.": "请选择一个区块。",
+  "Number of inserting lines (previous)": "插入行数 （上一个）",
+  "Number of inserting lines (next)": "插入行数 （next）",
+  "Number of inserting lines (from the page menu)": "插入行数 （从页面菜单）"
 }

@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Очистить содержимое блока",
+  "Add Previous Line": "Добавить предыдущую строку",
+  "Add Multiple Previous Lines": "Добавление нескольких предыдущих строк",
+  "Add Next Line": "Добавить следующую строку",
+  "Add Multiple Next Lines": "Добавление нескольких следующих строк",
+  "Create new lines at top of the page ⏫": "Создание новых строк в верхней части страницы ⏫",
+  "Create new lines at bottom of the page ⏬": "Создание новых строк внизу страницы ⏬",
+  "Clear contents of selected blocks": "Очистка содержимого выбранных блоков",
   "Cleared block contents": "Очищено содержимое блока",
-  "Create new lines at bottom of the page ⏬": "Вставка нескольких строк в конце ⏬ страницы",
-  "Create new lines at the next line ⤵️": "Затем вставьте несколько строк ⤵️",
-  "Create new lines at the previous line ⤴️": "Вставка нескольких строк ⤴️ перед",
-  "Create new lines at top of the page ⏫": "Вставка нескольких строк в верхней части ⏫ страницы",
-  "Create the next line ⤵️": "Вставьте следующую строку ⤵️",
-  "Create the previous line ⤴️": "Вставить ⤴️ строку перед",
-  "Created New Line": "Создана новая строка",
-  "Number of inserting lines (from the page menu)": "Количество вставляемых строк (из меню выбора страниц)",
-  "Number of inserting lines (next)": "Количество строк для вставки (следующая)",
-  "Number of inserting lines (previous)": "Количество строк для вставки (предыдущее)",
-  "Please select a block.": "Пожалуйста, выберите блок."
+  "Created New Line": "Создана новая линия",
+  "Please select a block.": "Пожалуйста, выберите блок.",
+  "Number of inserting lines (previous)": "Количество строк вставки (предыдущее)",
+  "Number of inserting lines (next)": "Количество строк вставки (следующая)",
+  "Number of inserting lines (from the page menu)": "Количество вставляемых строк (из меню страницы)"
 }

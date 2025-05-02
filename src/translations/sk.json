@@ -1,15 +1,15 @@
 {
-  "Clear block contents": "Vyčistiť obsah bloku",
-  "Cleared block contents": "Vyčistený obsah bloku",
-  "Create new lines at bottom of the page ⏬": "Vloženie viacerých riadkov na koniec ⏬ strany",
-  "Create new lines at the next line ⤵️": "Potom vložte viacero riadkov ⤵️",
-  "Create new lines at the previous line ⤴️": "Vloženie viacerých riadkov ⤴️ pred",
-  "Create new lines at top of the page ⏫": "Vloženie viacerých riadkov do hornej časti ⏫ strany",
-  "Create the next line ⤵️": "Vložte ⤵️ nasledujúci riadok",
-  "Create the previous line ⤴️": "Vloženie ⤴️ riadka pred",
-  "Created New Line": "Bol vytvorený nový riadok",
-  "Number of inserting lines (from the page menu)": "Počet riadkov, ktoré sa majú vložiť (z ponuky strán)",
-  "Number of inserting lines (next)": "Počet riadkov, ktoré sa majú vložiť (ďalší)",
-  "Number of inserting lines (previous)": "Počet riadkov, ktoré sa majú vložiť (predchádzajúci)",
-  "Please select a block.": "Vyberte blok."
+  "Add Previous Line": "Pridať predchádzajúci riadok",
+  "Add Multiple Previous Lines": "Pridanie viacerých predchádzajúcich riadkov",
+  "Add Next Line": "Pridať ďalší riadok",
+  "Add Multiple Next Lines": "Pridanie viacerých ďalších riadkov",
+  "Create new lines at top of the page ⏫": "Vytvorenie nových riadkov v hornej časti stránky ⏫",
+  "Create new lines at bottom of the page ⏬": "Vytvorenie nových riadkov v dolnej časti stránky ⏬",
+  "Clear contents of selected blocks": "Vymazanie obsahu vybraných blokov",
+  "Cleared block contents": "Vymazaný obsah bloku",
+  "Created New Line": "Vytvorený nový riadok",
+  "Please select a block.": "Vyberte blok.",
+  "Number of inserting lines (previous)": "Počet vkladacích riadkov (predchádzajúce)",
+  "Number of inserting lines (next)": "Počet vkladacích riadkov (ďalší)",
+  "Number of inserting lines (from the page menu)": "Počet vkladacích riadkov (z ponuky strán)"
 }
